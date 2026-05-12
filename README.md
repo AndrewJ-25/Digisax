@@ -1,4 +1,4 @@
-# Digisax
+# Digisax WORK IN PROGRESS!
 ESP32 controlled wind synth
 
 
