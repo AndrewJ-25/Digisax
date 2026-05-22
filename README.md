@@ -1,4 +1,6 @@
 # Digisax WORK IN PROGRESS!
+
+Will be completed before the end of June
 ESP32 controlled wind synth
 
 
