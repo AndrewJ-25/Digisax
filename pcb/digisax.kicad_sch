@@ -1613,6 +1613,410 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:RotaryEncoder_Switch"
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "RotaryEncoder_Switch"
+				(at 0 -6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 4.064 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 6.604 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "rotary switch encoder switch push button"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "RotaryEncoder*Switch*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_0_1"
+				(rectangle
+					(start -5.08 5.08)
+					(end 5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 2.54) (xy -3.81 2.54) (xy -3.81 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 0) (xy -3.81 0) (xy -3.81 -1.016) (xy -3.302 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -2.54) (xy -3.81 -2.54) (xy -3.81 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.318 0) (xy -3.81 0) (xy -3.81 1.016) (xy -3.302 2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.635 -1.778) (xy -0.635 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center -0.381 0)
+					(radius 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.381 -1.778) (xy -0.381 1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -0.381 -2.794)
+					(mid -3.0988 -0.0635)
+					(end -0.381 2.667)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.127 1.778) (xy -0.127 -1.778)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 2.921) (xy -0.508 2.667) (xy 0.127 2.286)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.254 -3.048) (xy -0.508 -2.794) (xy 0.127 -2.413)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.016) (xy 3.81 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 0) (xy 3.429 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 4.318 -1.016)
+					(radius 0.127)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 4.318 2.54) (xy 4.318 1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -2.54) (xy 4.318 -2.54) (xy 4.318 -1.016)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "RotaryEncoder_Switch_1_1"
+				(pin passive line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 2.54)
+					(name "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 2.54)
+					(name "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "S2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Diode:1N4148"
 			(pin_numbers
 				(hide yes)
@@ -1790,6 +2194,174 @@
 						)
 					)
 					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Display_Graphic:ER_OLEDM0.91_1x-I2C"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ER_OLEDM0.91_1x-I2C"
+				(at 14.224 -10.668 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
+				(at 18.034 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
+				(at 42.672 -14.732 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
+				(at 26.67 -16.764 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "EastRising"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "ER?OLEDM0.91?1x?I2C*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "ER_OLEDM0.91_1x-I2C_1_1"
+				(rectangle
+					(start -7.62 7.62)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 10.16 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2642,9 +3214,111 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 196.85 27.94)
+		(end 278.13 111.76)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "23ebde93-6f99-434d-aa42-9fa82577a254")
+	)
+	(rectangle
+		(start 123.19 27.94)
+		(end 191.77 85.09)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "3d732151-583b-4189-a676-36155b9304a5")
+	)
+	(rectangle
+		(start 218.44 132.08)
+		(end 270.51 160.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "7b616dca-59e6-45e9-b43c-04d881c91780")
+	)
+	(rectangle
+		(start 21.59 140.97)
+		(end 80.01 185.42)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "cca39b78-3fe1-47ef-a609-243b38f5f23a")
+	)
+	(rectangle
+		(start 96.52 140.97)
+		(end 170.18 184.15)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "db9d3bf4-a87d-410d-8acc-628ba6ea032c")
+	)
+	(rectangle
+		(start 19.05 27.94)
+		(end 118.11 118.11)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid "dd8d447f-95bd-4d1b-a148-f355b2ce2abd")
+	)
+	(text "MCU"
+		(exclude_from_sim no)
+		(at 198.12 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "1ca5ab9d-5a3e-4fee-9a28-d23313b3656c")
+	)
+	(text "OLED display"
+		(exclude_from_sim no)
+		(at 26.67 135.89 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2ac0df50-2495-42cd-a4a9-be093fa71e66")
+	)
+	(text "Rotary encoder"
+		(exclude_from_sim no)
+		(at 224.79 128.27 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "51889ee4-d9e4-4321-8d04-83f32ce78417")
+	)
 	(text "I2C busses have\ninternal 10k pullup"
 		(exclude_from_sim no)
-		(at 196.85 49.53 0)
+		(at 166.37 68.58 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2652,105 +3326,189 @@
 		)
 		(uuid "51919b9a-e5c2-4f91-8580-e59b4f1e65c6")
 	)
+	(text "Differential pressure sensor"
+		(exclude_from_sim no)
+		(at 109.22 137.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "5e2f7ff8-6860-4bb1-821f-ca9e8dbb1ce0")
+	)
+	(text "Key matrix"
+		(exclude_from_sim no)
+		(at 24.13 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7b413ca5-c35d-47b2-afcf-26998f5645db")
+	)
+	(text "DAC"
+		(exclude_from_sim no)
+		(at 125.73 24.13 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "826bd429-b985-46a1-8655-6e12e70c459c")
+	)
 	(junction
-		(at 62.23 119.38)
+		(at 50.8 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0118b85f-7396-461d-847a-076014b9c111")
+	)
+	(junction
+		(at 80.01 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "12227315-d080-42ce-b45d-83d385b9e241")
 	)
 	(junction
-		(at 35.56 77.47)
+		(at 110.49 73.66)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1a38a35d-9488-442f-9673-d1ce262246c7")
+	)
+	(junction
+		(at 50.8 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1aa87aae-c864-4147-b014-6ccb8aab8b49")
+	)
+	(junction
+		(at 110.49 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "282c3206-7118-4aeb-8181-c41a6a2d6095")
+	)
+	(junction
+		(at 80.01 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3b153432-1653-4c14-ac47-c28a68baea47")
+	)
+	(junction
+		(at 50.8 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3e63de7a-d3ee-4109-bcb0-0d961f86a362")
 	)
 	(junction
-		(at 62.23 77.47)
+		(at 110.49 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54586ade-3965-436e-946f-8943d8cdd518")
+	)
+	(junction
+		(at 80.01 73.66)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "61cd2ca3-b06c-4b87-866b-e77dbc5ce4cb")
 	)
 	(junction
-		(at 172.72 140.97)
+		(at 128.27 161.29)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "65ffb7d9-c15d-4c08-a990-05ae14620cb5")
 	)
 	(junction
-		(at 93.98 67.31)
+		(at 110.49 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "753409f1-a7d4-43b5-82e4-fddc92bb443a")
 	)
 	(junction
-		(at 93.98 109.22)
+		(at 110.49 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a7fa659-04da-4708-8369-1b668cab7530")
 	)
 	(junction
-		(at 93.98 99.06)
+		(at 50.8 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b420abc4-c15f-4998-baaa-6dfe7efe71f8")
+		(uuid "7bd36f50-31eb-40e5-8dc9-63e89fc7d82e")
 	)
 	(junction
-		(at 62.23 67.31)
+		(at 50.8 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ef7f857-f9d0-44d1-8381-b7315ffd8709")
+	)
+	(junction
+		(at 80.01 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a242de0c-7342-44ff-b316-fbee13df4007")
+	)
+	(junction
+		(at 50.8 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b09210f4-e556-4d08-bc6a-b17fda189f06")
+	)
+	(junction
+		(at 110.49 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b1f75ff4-d82c-4795-81e1-4f80789acbf6")
+	)
+	(junction
+		(at 80.01 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c207514a-f244-427a-90e4-88cb89095ca2")
+	)
+	(junction
+		(at 80.01 63.5)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c7ef8b7b-3b81-4076-b7d0-3c1e8f0a8bd5")
 	)
-	(junction
-		(at 62.23 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc4a0182-a476-46a6-a333-5ccb13227070")
-	)
-	(junction
-		(at 62.23 109.22)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f36eba7d-bf0c-4c2e-a4b0-26155dcfdd69")
-	)
 	(no_connect
-		(at 267.97 100.33)
+		(at 261.62 76.2)
 		(uuid "1d8444c3-ad1e-42cf-9d30-5f4b6fbfaff5")
 	)
 	(no_connect
-		(at 267.97 92.71)
+		(at 261.62 68.58)
 		(uuid "28dba715-729c-4753-b8d4-0e394fceee4e")
 	)
 	(no_connect
-		(at 222.25 97.79)
+		(at 215.9 73.66)
 		(uuid "656eb0af-5678-4f24-80d1-b962335a3bc4")
 	)
 	(no_connect
-		(at 267.97 102.87)
+		(at 261.62 78.74)
 		(uuid "66ab968f-e360-4eb2-ad01-a9cc707d78c1")
 	)
 	(no_connect
-		(at 267.97 113.03)
+		(at 261.62 88.9)
 		(uuid "6bec8623-63f1-4e58-a202-9029eabaf340")
 	)
 	(no_connect
-		(at 267.97 95.25)
+		(at 261.62 71.12)
 		(uuid "9051b5a0-3582-4d12-8b08-b409e6294a2e")
 	)
 	(no_connect
-		(at 267.97 115.57)
+		(at 261.62 91.44)
 		(uuid "933f872d-17ec-4134-9edc-470e6463baf1")
 	)
 	(no_connect
-		(at 267.97 97.79)
+		(at 261.62 73.66)
 		(uuid "9990180d-e06b-4fd1-b079-a60940842d56")
 	)
 	(no_connect
-		(at 222.25 100.33)
+		(at 215.9 76.2)
 		(uuid "9f16d4cb-e925-4342-86b4-063bc855aa43")
 	)
 	(wire
 		(pts
-			(xy 267.97 120.65) (xy 270.51 120.65)
+			(xy 261.62 96.52) (xy 264.16 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2760,7 +3518,7 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 120.65) (xy 222.25 120.65)
+			(xy 213.36 96.52) (xy 215.9 96.52)
 		)
 		(stroke
 			(width 0)
@@ -2770,7 +3528,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 129.54) (xy 189.23 130.81)
+			(xy 144.78 149.86) (xy 144.78 151.13)
 		)
 		(stroke
 			(width 0)
@@ -2780,7 +3538,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 115.57) (xy 207.01 118.11)
+			(xy 200.66 91.44) (xy 200.66 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2790,17 +3548,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 87.63) (xy 93.98 99.06)
+			(xy 223.52 149.86) (xy 223.52 144.78)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "2211b7d5-9b23-4a61-a5b3-7dd83f807d25")
+		(uuid "21f22480-624e-4700-a284-70421865c1b0")
 	)
 	(wire
 		(pts
-			(xy 93.98 109.22) (xy 93.98 119.38)
+			(xy 110.49 104.14) (xy 110.49 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2810,7 +3568,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 64.77) (xy 210.82 69.85)
+			(xy 204.47 40.64) (xy 204.47 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2820,7 +3578,17 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 77.47) (xy 35.56 87.63)
+			(xy 110.49 39.37) (xy 110.49 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c6efef-84b6-42b4-b26a-6254073ec9b1")
+	)
+	(wire
+		(pts
+			(xy 50.8 73.66) (xy 50.8 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2830,7 +3598,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 77.47) (xy 62.23 87.63)
+			(xy 80.01 73.66) (xy 80.01 83.82)
 		)
 		(stroke
 			(width 0)
@@ -2840,7 +3608,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 49.53) (xy 158.75 49.53)
+			(xy 137.16 68.58) (xy 128.27 68.58)
 		)
 		(stroke
 			(width 0)
@@ -2850,7 +3618,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 129.54) (xy 162.56 133.35)
+			(xy 118.11 149.86) (xy 118.11 153.67)
 		)
 		(stroke
 			(width 0)
@@ -2860,7 +3628,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 140.97) (xy 176.53 140.97)
+			(xy 128.27 161.29) (xy 132.08 161.29)
 		)
 		(stroke
 			(width 0)
@@ -2870,17 +3638,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 134.62) (xy 35.56 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a48272b-8c4e-418b-81aa-89a3f10b46d3")
-	)
-	(wire
-		(pts
-			(xy 218.44 67.31) (xy 222.25 67.31)
+			(xy 212.09 43.18) (xy 215.9 43.18)
 		)
 		(stroke
 			(width 0)
@@ -2890,7 +3648,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 120.65) (xy 270.51 127)
+			(xy 264.16 96.52) (xy 264.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2900,7 +3658,7 @@
 	)
 	(wire
 		(pts
-			(xy 210.82 69.85) (xy 222.25 69.85)
+			(xy 204.47 45.72) (xy 215.9 45.72)
 		)
 		(stroke
 			(width 0)
@@ -2910,7 +3668,7 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 118.11) (xy 276.86 118.11)
+			(xy 261.62 93.98) (xy 270.51 93.98)
 		)
 		(stroke
 			(width 0)
@@ -2920,7 +3678,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 119.38) (xy 62.23 129.54)
+			(xy 80.01 104.14) (xy 80.01 114.3)
 		)
 		(stroke
 			(width 0)
@@ -2930,7 +3688,7 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 54.61) (xy 276.86 54.61)
+			(xy 264.16 30.48) (xy 270.51 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2940,7 +3698,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 148.59) (xy 162.56 153.67)
+			(xy 118.11 168.91) (xy 118.11 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2950,7 +3708,7 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 118.11) (xy 276.86 127)
+			(xy 270.51 93.98) (xy 270.51 102.87)
 		)
 		(stroke
 			(width 0)
@@ -2960,7 +3718,7 @@
 	)
 	(wire
 		(pts
-			(xy 189.23 151.13) (xy 189.23 153.67)
+			(xy 144.78 171.45) (xy 144.78 173.99)
 		)
 		(stroke
 			(width 0)
@@ -2970,7 +3728,27 @@
 	)
 	(wire
 		(pts
-			(xy 270.51 67.31) (xy 270.51 54.61)
+			(xy 45.72 148.59) (xy 45.72 152.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f43f773-12d9-4bc4-aa81-8e1e3e55a10d")
+	)
+	(wire
+		(pts
+			(xy 80.01 39.37) (xy 80.01 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "74d9d50f-53b1-4037-91bc-382430927765")
+	)
+	(wire
+		(pts
+			(xy 264.16 43.18) (xy 264.16 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2980,7 +3758,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 140.97) (xy 172.72 146.05)
+			(xy 128.27 161.29) (xy 128.27 166.37)
 		)
 		(stroke
 			(width 0)
@@ -2990,7 +3768,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 67.31) (xy 62.23 77.47)
+			(xy 80.01 63.5) (xy 80.01 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3000,7 +3778,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 44.45) (xy 170.18 57.15)
+			(xy 139.7 63.5) (xy 139.7 76.2)
 		)
 		(stroke
 			(width 0)
@@ -3010,7 +3788,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 57.15) (xy 93.98 67.31)
+			(xy 110.49 53.34) (xy 110.49 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3020,7 +3798,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 67.31) (xy 93.98 77.47)
+			(xy 110.49 63.5) (xy 110.49 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3030,17 +3808,27 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 87.63) (xy 62.23 109.22)
+			(xy 252.73 147.32) (xy 256.54 147.32)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "953b39ed-fe01-4f91-830f-c7a4acbfe0a3")
+		(uuid "9671c68f-02cf-4ac3-8612-9ef30f76cc54")
 	)
 	(wire
 		(pts
-			(xy 93.98 99.06) (xy 93.98 109.22)
+			(xy 223.52 144.78) (xy 237.49 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9998e219-21ee-4c40-ab02-d5074938fb79")
+	)
+	(wire
+		(pts
+			(xy 110.49 93.98) (xy 110.49 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3050,7 +3838,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 109.22) (xy 35.56 119.38)
+			(xy 50.8 93.98) (xy 50.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3060,7 +3848,7 @@
 	)
 	(wire
 		(pts
-			(xy 207.01 118.11) (xy 222.25 118.11)
+			(xy 200.66 93.98) (xy 215.9 93.98)
 		)
 		(stroke
 			(width 0)
@@ -3070,7 +3858,17 @@
 	)
 	(wire
 		(pts
-			(xy 276.86 54.61) (xy 276.86 58.42)
+			(xy 110.49 73.66) (xy 110.49 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af10ceda-98f1-432b-b4a3-08b52a7af1de")
+	)
+	(wire
+		(pts
+			(xy 270.51 30.48) (xy 270.51 34.29)
 		)
 		(stroke
 			(width 0)
@@ -3080,7 +3878,17 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 57.15) (xy 62.23 67.31)
+			(xy 45.72 172.72) (xy 45.72 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c6a3817d-4bcd-413b-b0c3-fcebe270b614")
+	)
+	(wire
+		(pts
+			(xy 80.01 53.34) (xy 80.01 63.5)
 		)
 		(stroke
 			(width 0)
@@ -3090,7 +3898,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 67.31) (xy 35.56 77.47)
+			(xy 50.8 63.5) (xy 50.8 73.66)
 		)
 		(stroke
 			(width 0)
@@ -3100,7 +3908,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 44.45) (xy 167.64 49.53)
+			(xy 137.16 63.5) (xy 137.16 68.58)
 		)
 		(stroke
 			(width 0)
@@ -3110,7 +3918,27 @@
 	)
 	(wire
 		(pts
-			(xy 218.44 64.77) (xy 218.44 67.31)
+			(xy 110.49 83.82) (xy 110.49 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ce4b4476-0d61-457a-be6e-690e2a2c913d")
+	)
+	(wire
+		(pts
+			(xy 50.8 39.37) (xy 50.8 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d27e8144-7fc1-48ab-8198-88e0951b7df8")
+	)
+	(wire
+		(pts
+			(xy 212.09 40.64) (xy 212.09 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3120,7 +3948,27 @@
 	)
 	(wire
 		(pts
-			(xy 267.97 67.31) (xy 270.51 67.31)
+			(xy 80.01 83.82) (xy 80.01 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5f0dda2-34db-46c2-a54a-dd8f7f416e8a")
+	)
+	(wire
+		(pts
+			(xy 50.8 53.34) (xy 50.8 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "da4132fd-c550-4808-b581-35d24e40cd29")
+	)
+	(wire
+		(pts
+			(xy 261.62 43.18) (xy 264.16 43.18)
 		)
 		(stroke
 			(width 0)
@@ -3130,7 +3978,7 @@
 	)
 	(wire
 		(pts
-			(xy 62.23 109.22) (xy 62.23 119.38)
+			(xy 80.01 93.98) (xy 80.01 104.14)
 		)
 		(stroke
 			(width 0)
@@ -3140,7 +3988,17 @@
 	)
 	(wire
 		(pts
-			(xy 219.71 127) (xy 219.71 120.65)
+			(xy 50.8 104.14) (xy 50.8 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee1f9a23-8717-4de2-a375-7bf15ead74ef")
+	)
+	(wire
+		(pts
+			(xy 213.36 102.87) (xy 213.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -3148,33 +4006,29 @@
 		)
 		(uuid "f95b7890-188f-46c4-aa75-ea7dacdb81f2")
 	)
-	(global_label "I2C_SCL"
-		(shape input)
-		(at 201.93 138.43 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
+	(wire
+		(pts
+			(xy 256.54 147.32) (xy 256.54 149.86)
 		)
-		(uuid "0a2483bd-85b3-4784-aa18-9f9d5be7b7d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.4747 138.43 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
+		(stroke
+			(width 0)
+			(type default)
 		)
+		(uuid "fc9930ea-6ec1-4797-a316-0301f4204314")
 	)
-	(global_label "key_R3"
+	(wire
+		(pts
+			(xy 50.8 83.82) (xy 50.8 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fda96fca-ffe5-46a4-8abc-b2eda8301af9")
+	)
+	(global_label "key_R8"
 		(shape input)
-		(at 52.07 129.54 180)
+		(at 33.02 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3182,9 +4036,9 @@
 			)
 			(justify right)
 		)
-		(uuid "129e64df-2adb-4863-b409-1dcb8c336b56")
+		(uuid "019acf06-56b5-444f-bea6-4ad63fc9cca8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.5534 129.54 0)
+			(at 23.5034 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3196,9 +4050,33 @@
 			)
 		)
 	)
-	(global_label "key_RS3"
+	(global_label "I2C_SCL"
 		(shape input)
-		(at 25.4 67.31 180)
+		(at 157.48 158.75 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0a2483bd-85b3-4784-aa18-9f9d5be7b7d4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 168.0247 158.75 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "EC11_A"
+		(shape input)
+		(at 237.49 142.24 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3206,9 +4084,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1398c975-2e4f-42f0-8162-909a03d06717")
+		(uuid "0f61b2c2-5869-47b3-9a6d-cbb017d69a17")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6739 67.31 0)
+			(at 227.6106 142.24 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3222,7 +4100,7 @@
 	)
 	(global_label "I2S_BCK"
 		(shape input)
-		(at 182.88 44.45 270)
+		(at 152.4 63.5 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3232,7 +4110,31 @@
 		)
 		(uuid "13b02b55-4770-45c1-be8d-5b9bdaa729b5")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 182.88 55.2366 90)
+			(at 152.4 74.2866 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R4"
+		(shape input)
+		(at 215.9 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "13fde36c-f84a-4e0b-b8d1-96d2283b4dc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3834 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3246,7 +4148,7 @@
 	)
 	(global_label "DAC_RST"
 		(shape input)
-		(at 180.34 21.59 90)
+		(at 149.86 40.64 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3256,7 +4158,7 @@
 		)
 		(uuid "1b42496b-4b52-43af-a685-331a519b362c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 10.5615 90)
+			(at 149.86 29.6115 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3268,9 +4170,9 @@
 			)
 		)
 	)
-	(global_label "key_RS1"
+	(global_label "key_R9"
 		(shape input)
-		(at 25.4 87.63 180)
+		(at 92.71 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3278,9 +4180,9 @@
 			)
 			(justify right)
 		)
-		(uuid "1b7967c8-d76b-4266-9407-5a3aac89dcd1")
+		(uuid "23513c88-f059-459f-97e5-da8625d38b89")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6739 87.63 0)
+			(at 83.1934 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3292,9 +4194,33 @@
 			)
 		)
 	)
-	(global_label "key_TR"
+	(global_label "EC11_B"
 		(shape input)
-		(at 25.4 144.78 180)
+		(at 261.62 55.88 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2509c39f-d45f-40cc-88ff-fda1ac742cb9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 271.6808 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "key_R1"
+		(shape input)
+		(at 92.71 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3302,9 +4228,33 @@
 			)
 			(justify right)
 		)
-		(uuid "253a3634-095b-487a-ab88-82ac0aa0c867")
+		(uuid "2bab782d-5c1f-4373-9300-6fc2877d2b0b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 16.1253 144.78 0)
+			(at 83.1934 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R5"
+		(shape input)
+		(at 62.23 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2db45bf8-354c-49d2-a125-0cfc2de926a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.7134 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3318,7 +4268,7 @@
 	)
 	(global_label "I2C_SCL"
 		(shape input)
-		(at 172.72 44.45 270)
+		(at 142.24 63.5 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3328,7 +4278,31 @@
 		)
 		(uuid "2f2a6d88-5989-4ecf-9046-fab444d8b572")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 172.72 54.9947 90)
+			(at 142.24 74.0447 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R8"
+		(shape input)
+		(at 215.9 71.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "30951257-0b42-49f3-8777-a0000ec2d33e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3834 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3342,7 +4316,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 201.93 143.51 0)
+		(at 157.48 163.83 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3352,7 +4326,7 @@
 		)
 		(uuid "321da0b5-5ed9-40eb-8dfa-14df8ff87435")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.5352 143.51 0)
+			(at 168.0852 163.83 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3366,7 +4340,7 @@
 	)
 	(global_label "I2C_SDA"
 		(shape input)
-		(at 175.26 44.45 270)
+		(at 144.78 63.5 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3376,7 +4350,7 @@
 		)
 		(uuid "328d832f-b6a8-4fe8-ba42-608f99230c5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 175.26 55.0552 90)
+			(at 144.78 74.1052 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3388,19 +4362,19 @@
 			)
 		)
 	)
-	(global_label "key_LBF"
+	(global_label "key_C3"
 		(shape input)
-		(at 83.82 119.38 180)
+		(at 110.49 39.37 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "3a8e091e-b548-4998-bee2-cd7e370969da")
+		(uuid "44022927-0225-470a-a5aa-5fa39c3f324b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3962 119.38 0)
+			(at 110.49 29.8534 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3408,13 +4382,37 @@
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
 	)
-	(global_label "key_L3"
+	(global_label "key_C2"
 		(shape input)
-		(at 52.07 87.63 180)
+		(at 80.01 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "44256c7f-a8b7-48dd-b220-20bab04f3f3c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 80.01 29.8534 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "key_R8"
+		(shape input)
+		(at 92.71 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3422,9 +4420,9 @@
 			)
 			(justify right)
 		)
-		(uuid "4067ab2d-d48b-4ee3-b659-346092872052")
+		(uuid "4f1e663f-4f43-41f8-ad69-f3d8db807c5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7953 87.63 0)
+			(at 83.1934 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3438,7 +4436,7 @@
 	)
 	(global_label "I2S_WS"
 		(shape input)
-		(at 222.25 74.93 180)
+		(at 215.9 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3448,7 +4446,7 @@
 		)
 		(uuid "54da8148-614c-441d-bcfa-effa94f435c8")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.6125 74.93 0)
+			(at 206.2625 50.8 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3460,9 +4458,9 @@
 			)
 		)
 	)
-	(global_label "key_BF"
+	(global_label "key_R7"
 		(shape input)
-		(at 52.07 67.31 180)
+		(at 62.23 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3470,9 +4468,9 @@
 			)
 			(justify right)
 		)
-		(uuid "58c75aa4-33d9-48cc-9e08-e2a530e674f7")
+		(uuid "554e4f7c-0b0a-489f-bdc5-7c860373b25c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.6743 67.31 0)
+			(at 52.7134 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3484,9 +4482,9 @@
 			)
 		)
 	)
-	(global_label "key_L1"
+	(global_label "key_R4"
 		(shape input)
-		(at 52.07 57.15 180)
+		(at 62.23 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3494,9 +4492,9 @@
 			)
 			(justify right)
 		)
-		(uuid "663f5c54-f43d-4a13-887b-0c59cdd1f0ea")
+		(uuid "5a935358-ccfb-47e7-b1ca-a8703cda5cf1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7953 57.15 0)
+			(at 52.7134 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3508,33 +4506,9 @@
 			)
 		)
 	)
-	(global_label "key_LS3"
+	(global_label "EC11_A"
 		(shape input)
-		(at 83.82 57.15 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "81661fe4-47db-4dc8-a09f-0e83ec986b8b")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3358 57.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "sensor_output"
-		(shape input)
-		(at 267.97 74.93 0)
+		(at 261.62 53.34 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3542,9 +4516,9 @@
 			)
 			(justify left)
 		)
-		(uuid "8be624df-b028-49da-8c5f-5ae2464c98f2")
+		(uuid "5ba16b07-af17-46bd-9676-0b66a2acefb1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 284.1992 74.93 0)
+			(at 271.4994 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3556,9 +4530,9 @@
 			)
 		)
 	)
-	(global_label "key_GS"
+	(global_label "key_R9"
 		(shape input)
-		(at 83.82 87.63 180)
+		(at 215.9 78.74 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3566,9 +4540,9 @@
 			)
 			(justify right)
 		)
-		(uuid "9c783c13-7922-47e1-a222-4725a162b6d5")
+		(uuid "5bb91317-2c90-4a75-a567-9b9f023ba9a2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.3034 87.63 0)
+			(at 206.3834 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3580,33 +4554,9 @@
 			)
 		)
 	)
-	(global_label "key_OCT"
+	(global_label "key_R5"
 		(shape input)
-		(at 267.97 72.39 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a2b05896-591d-4d73-9a72-15b0d964c9a3")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 278.5752 72.39 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
-	(global_label "I2S_SCK"
-		(shape input)
-		(at 222.25 77.47 180)
+		(at 92.71 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3614,9 +4564,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a58e6d40-8821-44f6-b6f6-9d5442deba75")
+		(uuid "5e957816-f0ff-4a6a-85a3-1caf65b9c992")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 211.5239 77.47 0)
+			(at 83.1934 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3628,9 +4578,9 @@
 			)
 		)
 	)
-	(global_label "key_RS2"
+	(global_label "key_R8"
 		(shape input)
-		(at 25.4 77.47 180)
+		(at 62.23 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3638,33 +4588,9 @@
 			)
 			(justify right)
 		)
-		(uuid "a6661f57-995f-43ef-bc5d-58af48e8320d")
+		(uuid "632502a8-5032-4995-aff7-eb2332271f87")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.6739 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "key_C"
-		(shape input)
-		(at 25.4 119.38 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "b1d4feae-d08f-4d24-aaaa-7f6fe89dcb68")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 17.0929 119.38 0)
+			(at 52.7134 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3678,7 +4604,7 @@
 	)
 	(global_label "key_R1"
 		(shape input)
-		(at 52.07 109.22 180)
+		(at 62.23 53.34 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3686,9 +4612,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b20cbc53-923c-4da4-871e-c8a8b0d3a120")
+		(uuid "6476e2b6-83bb-42cc-b229-3bf721b65150")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.5534 109.22 0)
+			(at 52.7134 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3702,7 +4628,7 @@
 	)
 	(global_label "key_R2"
 		(shape input)
-		(at 52.07 119.38 180)
+		(at 33.02 63.5 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3710,9 +4636,9 @@
 			)
 			(justify right)
 		)
-		(uuid "b3c22f71-e036-4666-9916-d2c82f693882")
+		(uuid "66ffacae-bc89-4855-9737-855387aed3fb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.5534 119.38 0)
+			(at 23.5034 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3724,9 +4650,9 @@
 			)
 		)
 	)
-	(global_label "key_LS2"
+	(global_label "key_R1"
 		(shape input)
-		(at 83.82 67.31 180)
+		(at 215.9 58.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3734,9 +4660,9 @@
 			)
 			(justify right)
 		)
-		(uuid "bce514b3-075a-4e01-8430-63ee99dfd9d5")
+		(uuid "7f14618d-600b-45d2-8e2d-8cf2261761bc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3358 67.31 0)
+			(at 206.3834 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3748,9 +4674,9 @@
 			)
 		)
 	)
-	(global_label "I2S_SD"
+	(global_label "I2C_SDA"
 		(shape input)
-		(at 222.25 80.01 180)
+		(at 35.56 165.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3758,9 +4684,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c03d3120-08f6-42c8-8558-bab9f0a09fe3")
+		(uuid "8a7158b2-8abf-4e22-87c1-8c118d5d0030")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.7939 80.01 0)
+			(at 24.9548 165.1 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3772,9 +4698,33 @@
 			)
 		)
 	)
-	(global_label "key_HFS"
+	(global_label "sensor_output"
 		(shape input)
-		(at 25.4 134.62 180)
+		(at 261.62 50.8 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8be624df-b028-49da-8c5f-5ae2464c98f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 277.8492 50.8 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "key_R4"
+		(shape input)
+		(at 92.71 73.66 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3782,9 +4732,9 @@
 			)
 			(justify right)
 		)
-		(uuid "c4fdb032-2308-418a-a873-1ff9857db19b")
+		(uuid "92da35ae-ff98-4f88-9ce5-95f6563dccf0")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.7343 134.62 0)
+			(at 83.1934 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3796,9 +4746,9 @@
 			)
 		)
 	)
-	(global_label "key_DS"
+	(global_label "key_R5"
 		(shape input)
-		(at 25.4 109.22 180)
+		(at 33.02 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3806,105 +4756,9 @@
 			)
 			(justify right)
 		)
-		(uuid "ce1ba0b7-7a44-4e6c-98a7-84949f5d6761")
+		(uuid "977fc5db-0548-416b-bc55-d49beab35f7c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 15.8834 109.22 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "key_L2"
-		(shape input)
-		(at 52.07 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ce6a6f20-1322-4228-9e0b-4885cea669a1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7953 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "key_LS1"
-		(shape input)
-		(at 83.82 77.47 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "d37df804-f03a-4f28-8af9-e31ce4c42b9a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 73.3358 77.47 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "I2S_DIN"
-		(shape input)
-		(at 177.8 44.45 270)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "db3bb0be-1184-4bb7-aeb6-43b802dce3bc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 54.6319 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "key_CS"
-		(shape input)
-		(at 83.82 99.06 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ddb2721d-238e-4852-868a-35eb161b391c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.3034 99.06 0)
+			(at 23.5034 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3918,7 +4772,31 @@
 	)
 	(global_label "key_OCT"
 		(shape input)
-		(at 25.4 57.15 180)
+		(at 261.62 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a2b05896-591d-4d73-9a72-15b0d964c9a3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 272.2252 48.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "key_R9"
+		(shape input)
+		(at 33.02 114.3 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3926,9 +4804,489 @@
 			)
 			(justify right)
 		)
-		(uuid "e485651d-d443-4100-a100-462ae435ce81")
+		(uuid "a30d4361-ac8c-4c71-923f-b1d657cee9cb")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 14.7948 57.15 0)
+			(at 23.5034 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_SCK"
+		(shape input)
+		(at 215.9 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a58e6d40-8821-44f6-b6f6-9d5442deba75")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 205.1739 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R7"
+		(shape input)
+		(at 33.02 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a7f0cdb0-9c8b-46f4-a345-de9690ec6f2f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.5034 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_C3"
+		(shape input)
+		(at 215.9 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "abcb04c6-aa22-4739-8d3c-2194dda12fe4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3834 86.36 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R2"
+		(shape input)
+		(at 92.71 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0519d1c-580a-4f93-ba2c-6ad96e040a95")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.1934 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R9"
+		(shape input)
+		(at 62.23 114.3 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b0f5a8ba-3161-4b6c-9db7-32f7da242916")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.7134 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "EC11_B"
+		(shape input)
+		(at 237.49 147.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b17febab-dd2e-486d-8823-47e296fa9a64")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.4292 147.32 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R2"
+		(shape input)
+		(at 62.23 63.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bbbde3b6-968a-41b4-948e-2e55a1342222")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 52.7134 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_SD"
+		(shape input)
+		(at 215.9 55.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c03d3120-08f6-42c8-8558-bab9f0a09fe3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.4439 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R1"
+		(shape input)
+		(at 33.02 53.34 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c22d083a-31e7-4788-8447-1498def13cb2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.5034 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2C_SCL"
+		(shape input)
+		(at 35.56 160.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c2e45b53-dbcc-454d-b485-52c14885eee3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.0153 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_C1"
+		(shape input)
+		(at 215.9 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ca710fd0-972a-4b1d-88c9-f549a4ddca59")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3834 81.28 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_C2"
+		(shape input)
+		(at 215.9 83.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "cad26fbc-5b5d-4c32-8724-a08321de8b92")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3834 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "EC11_button"
+		(shape input)
+		(at 252.73 142.24 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d83b26d8-2d5d-450b-bd63-6d03e0c63096")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 267.5682 142.24 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "key_C1"
+		(shape input)
+		(at 50.8 39.37 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d8725e09-9463-4925-981e-1bc9d3fb4d6a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 50.8 29.8534 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+	)
+	(global_label "key_R5"
+		(shape input)
+		(at 215.9 66.04 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d87b4c0b-92bb-4e5a-bd8a-c6a3ede0cb5f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3834 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "I2S_DIN"
+		(shape input)
+		(at 147.32 63.5 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "db3bb0be-1184-4bb7-aeb6-43b802dce3bc")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 147.32 73.6819 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R2"
+		(shape input)
+		(at 215.9 60.96 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e36ee4d6-8d0e-4845-8a76-185d9f3988db")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3834 60.96 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R7"
+		(shape input)
+		(at 92.71 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "e3df1444-7fba-4d71-9b9a-f41c29bc6f6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 83.1934 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R4"
+		(shape input)
+		(at 33.02 73.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ec5ed19b-fcf3-419d-bde2-93138b96396c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 23.5034 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
+	(global_label "key_R7"
+		(shape input)
+		(at 215.9 68.58 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f699280f-7a63-46a9-b004-f6a42dfb379f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 206.3834 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3942,7 +5300,7 @@
 	)
 	(global_label "I2S_WSEL"
 		(shape input)
-		(at 180.34 44.45 270)
+		(at 149.86 63.5 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3952,31 +5310,7 @@
 		)
 		(uuid "fd223b6d-099f-4e3c-bc3a-354334a2d3c2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 180.34 56.2646 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-	)
-	(global_label "key_LB"
-		(shape input)
-		(at 83.82 109.22 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "ff147cac-4dd2-4619-b2bd-893b4a4233d5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 74.4848 109.22 0)
+			(at 149.86 75.3146 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3990,7 +5324,7 @@
 	)
 	(symbol
 		(lib_id "Analog_ADC:MCP3221")
-		(at 189.23 140.97 0)
+		(at 144.78 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4001,7 +5335,7 @@
 		(fields_autoplaced yes)
 		(uuid "02762c8a-84a9-4f29-80ed-027a51f635a0")
 		(property "Reference" "U4"
-			(at 191.3733 129.54 0)
+			(at 146.9233 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4012,7 +5346,7 @@
 			)
 		)
 		(property "Value" "MCP3221"
-			(at 191.3733 132.08 0)
+			(at 146.9233 152.4 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4023,7 +5357,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-5"
-			(at 189.738 161.544 0)
+			(at 145.288 181.864 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,7 +5368,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/en/devicedoc/20001732e.pdf"
-			(at 192.024 164.084 0)
+			(at 147.574 184.404 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4045,7 +5379,7 @@
 			)
 		)
 		(property "Description" "Single channel 12bit SAR Analog to Digital Converter, I2C Interface, SOT-23-5"
-			(at 191.262 166.624 0)
+			(at 146.812 186.944 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4080,8 +5414,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 66.04 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "09448e79-d400-4f51-a51a-a55b91de70a3")
+		(property "Reference" "D10"
+			(at 66.04 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 66.04 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 66.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 66.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 66.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "a84d52a5-2a1c-49be-b76a-a39abfd869f0")
+		)
+		(pin "1"
+			(uuid "881123ea-6050-431a-aab1-14be98295554")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 57.15 119.38 0)
+		(at 74.93 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4092,7 +5528,7 @@
 		(fields_autoplaced yes)
 		(uuid "0efb4525-6f52-46f7-9731-6cad6f8c3457")
 		(property "Reference" "key_R2"
-			(at 57.15 111.76 0)
+			(at 74.93 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4102,7 +5538,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 57.15 114.3 0)
+			(at 74.93 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4112,7 +5548,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 114.3 0)
+			(at 74.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4123,7 +5559,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 114.3 0)
+			(at 74.93 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4134,7 +5570,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 57.15 119.38 0)
+			(at 74.93 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4161,7 +5597,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 88.9 77.47 0)
+		(at 105.41 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4172,7 +5608,7 @@
 		(fields_autoplaced yes)
 		(uuid "10032b07-d007-4e84-b362-09f535c2049e")
 		(property "Reference" "key_LS1"
-			(at 88.9 69.85 0)
+			(at 105.41 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4182,7 +5618,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 72.39 0)
+			(at 105.41 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4192,7 +5628,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 72.39 0)
+			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4203,7 +5639,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 72.39 0)
+			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4214,7 +5650,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 88.9 77.47 0)
+			(at 105.41 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4241,7 +5677,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 30.48 109.22 0)
+		(at 45.72 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4252,7 +5688,7 @@
 		(fields_autoplaced yes)
 		(uuid "10f51d57-c625-4406-843e-c592fcb6c2be")
 		(property "Reference" "key_DS"
-			(at 30.48 101.6 0)
+			(at 45.72 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4262,7 +5698,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 104.14 0)
+			(at 45.72 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4272,7 +5708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4283,7 +5719,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 104.14 0)
+			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4294,7 +5730,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 109.22 0)
+			(at 45.72 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4320,8 +5756,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 66.04 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "14c9793c-cfe7-4ead-aafb-96efe5067b03")
+		(property "Reference" "D14"
+			(at 66.04 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 66.04 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 66.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 66.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 66.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "19c1f29e-3efe-46a9-a325-cca1f26d3cb5")
+		)
+		(pin "1"
+			(uuid "7d68179e-7397-4141-891d-9e80f8280708")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 270.51 127 0)
+		(at 264.16 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4332,7 +5870,7 @@
 		(fields_autoplaced yes)
 		(uuid "168f7b08-30af-4ca0-947d-ac78f3c9d171")
 		(property "Reference" "#PWR010"
-			(at 270.51 133.35 0)
+			(at 264.16 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4343,7 +5881,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 270.51 132.08 0)
+			(at 264.16 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4353,7 +5891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 270.51 127 0)
+			(at 264.16 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4364,7 +5902,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 270.51 127 0)
+			(at 264.16 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4375,7 +5913,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 270.51 127 0)
+			(at 264.16 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4398,8 +5936,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 36.83 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d309958-de19-4e56-a29c-554fbee4cfcb")
+		(property "Reference" "D6"
+			(at 36.83 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 36.83 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 36.83 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 36.83 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 36.83 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 36.83 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "5ed8b305-10c6-4aee-8aaa-ccd01fab2329")
+		)
+		(pin "1"
+			(uuid "17005c32-ffa4-4087-963f-8e73541269b7")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 30.48 119.38 0)
+		(at 45.72 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4410,7 +6050,7 @@
 		(fields_autoplaced yes)
 		(uuid "1f54c304-b8cc-4335-9ea1-91bae2c72650")
 		(property "Reference" "key_C"
-			(at 30.48 111.76 0)
+			(at 45.72 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4420,7 +6060,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 114.3 0)
+			(at 45.72 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4430,7 +6070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 114.3 0)
+			(at 45.72 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,7 +6081,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 114.3 0)
+			(at 45.72 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4452,7 +6092,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 119.38 0)
+			(at 45.72 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4479,7 +6119,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 57.15 87.63 0)
+		(at 74.93 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4490,7 +6130,7 @@
 		(fields_autoplaced yes)
 		(uuid "20263bfd-288e-44a3-9838-9d9e1581d6df")
 		(property "Reference" "key_L3"
-			(at 57.15 80.01 0)
+			(at 74.93 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4500,7 +6140,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 57.15 82.55 0)
+			(at 74.93 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4510,7 +6150,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 82.55 0)
+			(at 74.93 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4521,7 +6161,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 82.55 0)
+			(at 74.93 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4532,7 +6172,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 57.15 87.63 0)
+			(at 74.93 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4558,8 +6198,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 96.52 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "253b2880-4cae-4ec3-a042-32bee77220dd")
+		(property "Reference" "D15"
+			(at 96.52 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 96.52 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 96.52 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 96.52 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 96.52 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "846fb535-4f0c-46f2-930a-750252a4775c")
+		)
+		(pin "1"
+			(uuid "9e309afa-7ef4-4d63-8b5f-5975469c58fe")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+3.3V")
-		(at 218.44 64.77 0)
+		(at 212.09 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4570,7 +6312,7 @@
 		(fields_autoplaced yes)
 		(uuid "39fcf5a0-6846-4b33-bb8d-c34612ad77c2")
 		(property "Reference" "#PWR05"
-			(at 218.44 68.58 0)
+			(at 212.09 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4581,7 +6323,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 218.44 59.69 0)
+			(at 212.09 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4591,7 +6333,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 64.77 0)
+			(at 212.09 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4602,7 +6344,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 218.44 64.77 0)
+			(at 212.09 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4613,7 +6355,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 218.44 64.77 0)
+			(at 212.09 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4637,7 +6379,7 @@
 	)
 	(symbol
 		(lib_id "Audio:TLV320DAC3100_breakout")
-		(at 179.07 34.29 0)
+		(at 148.59 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4648,7 +6390,7 @@
 		(fields_autoplaced yes)
 		(uuid "3bbbe778-f797-4b70-a029-054787bb631c")
 		(property "Reference" "U1"
-			(at 195.58 31.7499 0)
+			(at 165.1 50.7999 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4659,7 +6401,7 @@
 			)
 		)
 		(property "Value" "TLV320DAC3100_breakout"
-			(at 195.58 34.2899 0)
+			(at 165.1 53.3399 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4670,7 +6412,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 179.07 34.29 0)
+			(at 148.59 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4681,7 +6423,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 179.07 34.29 0)
+			(at 148.59 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4692,7 +6434,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 179.07 34.29 0)
+			(at 148.59 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4766,8 +6508,416 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 96.52 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3fecef90-1022-4131-9197-35c65e8a5d97")
+		(property "Reference" "D19"
+			(at 96.52 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 96.52 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "8517a586-0db6-4f12-8bae-7f9169eacf52")
+		)
+		(pin "1"
+			(uuid "1b49ff89-f44b-40aa-9b41-8a22aa3a86e0")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 66.04 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "42f60c80-2d84-411f-896b-133ca404d44e")
+		(property "Reference" "D11"
+			(at 66.04 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 66.04 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 66.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 66.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 66.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "2033f28d-5a26-43e0-8b7a-1250998bf1df")
+		)
+		(pin "1"
+			(uuid "e01e6284-9b64-4d08-848b-3ccd8728b887")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 36.83 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "452d9a26-a1eb-4926-bd2a-23befd87b0a1")
+		(property "Reference" "D4"
+			(at 36.83 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 36.83 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 36.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 36.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 36.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 36.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "59395693-7ac2-4cb5-ab24-930b273e9319")
+		)
+		(pin "1"
+			(uuid "e3acbff0-b0ef-45d9-828d-7dacaef5be5a")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 66.04 53.34 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "460e7961-d3bf-4295-9eb3-cfcb81b1c1bc")
+		(property "Reference" "D8"
+			(at 66.04 46.99 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 66.04 49.53 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 53.34 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "cc27b994-769a-4e09-bdee-bf87a64904cf")
+		)
+		(pin "1"
+			(uuid "a5d617bf-68a5-48e3-8c0d-4949bed93219")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 88.9 119.38 0)
+		(at 105.41 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4778,7 +6928,7 @@
 		(fields_autoplaced yes)
 		(uuid "4857cdfc-9697-4e47-89e5-26173235b623")
 		(property "Reference" "key_LBF"
-			(at 88.9 111.76 0)
+			(at 105.41 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4788,7 +6938,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 114.3 0)
+			(at 105.41 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4798,7 +6948,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 114.3 0)
+			(at 105.41 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4809,7 +6959,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 114.3 0)
+			(at 105.41 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4820,7 +6970,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 88.9 119.38 0)
+			(at 105.41 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4847,7 +6997,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 88.9 67.31 0)
+		(at 105.41 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4858,7 +7008,7 @@
 		(fields_autoplaced yes)
 		(uuid "52820844-6810-4d18-b34b-4a4ee56c8b98")
 		(property "Reference" "key_LS2"
-			(at 88.9 59.69 0)
+			(at 105.41 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4868,7 +7018,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 62.23 0)
+			(at 105.41 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4878,7 +7028,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 62.23 0)
+			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4889,7 +7039,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 62.23 0)
+			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4900,7 +7050,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 88.9 67.31 0)
+			(at 105.41 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4926,8 +7076,212 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 36.83 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5581ab8b-45e9-4ec4-a65e-afa9406851a7")
+		(property "Reference" "D2"
+			(at 36.83 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 36.83 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 36.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 36.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 36.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 36.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "4dfec1ec-dc6c-42ce-88b6-e6df7bf54816")
+		)
+		(pin "1"
+			(uuid "32ed6853-41d9-4974-a928-134daa900a4c")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 36.83 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "570b846b-9d0b-492c-947a-29709372d3d6")
+		(property "Reference" "D7"
+			(at 36.83 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 36.83 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 36.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 36.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 36.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 36.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "26c2b82a-3528-4272-8553-a73f0a5ac07c")
+		)
+		(pin "1"
+			(uuid "58e7e953-6565-4208-8d85-36e2e76b69a3")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 30.48 77.47 0)
+		(at 45.72 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -4938,7 +7292,7 @@
 		(fields_autoplaced yes)
 		(uuid "587dec46-45f7-4717-99bb-2976068dfdd0")
 		(property "Reference" "key_RS2"
-			(at 30.48 69.85 0)
+			(at 45.72 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4948,7 +7302,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 72.39 0)
+			(at 45.72 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -4958,7 +7312,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 72.39 0)
+			(at 45.72 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4969,7 +7323,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 72.39 0)
+			(at 45.72 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4980,7 +7334,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 77.47 0)
+			(at 45.72 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5006,8 +7360,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 66.04 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5cbf951a-1779-4501-93a4-985dd7f38189")
+		(property "Reference" "D9"
+			(at 66.04 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 66.04 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 66.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 66.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 66.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "44ae11f9-a293-4217-96e4-486b2978c7a5")
+		)
+		(pin "1"
+			(uuid "2199d4b4-64ec-4120-bacf-cf19e8528505")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
-		(at 172.72 149.86 0)
+		(at 128.27 170.18 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5018,7 +7474,7 @@
 		(fields_autoplaced yes)
 		(uuid "5f543cda-16d8-4d57-aa87-223a24781542")
 		(property "Reference" "C1"
-			(at 176.53 148.5899 0)
+			(at 132.08 168.9099 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5029,7 +7485,7 @@
 			)
 		)
 		(property "Value" "C470pF"
-			(at 176.53 151.1299 0)
+			(at 132.08 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5040,7 +7496,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 173.6852 153.67 0)
+			(at 129.2352 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5051,7 +7507,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 149.86 0)
+			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5062,7 +7518,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 149.86 0)
+			(at 128.27 170.18 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5089,7 +7545,7 @@
 	)
 	(symbol
 		(lib_id "1_ESP32-S3-DevKitC-1:ESP32-S3-DevKitC-1")
-		(at 245.11 95.25 0)
+		(at 238.76 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5100,7 +7556,7 @@
 		(fields_autoplaced yes)
 		(uuid "6285bdea-f680-467c-9b3c-281416e91beb")
 		(property "Reference" "U3"
-			(at 245.11 57.15 0)
+			(at 238.76 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5110,7 +7566,7 @@
 			)
 		)
 		(property "Value" "ESP32-S3"
-			(at 245.11 59.69 0)
+			(at 238.76 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5120,7 +7576,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 245.11 95.25 0)
+			(at 238.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5131,7 +7587,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 245.11 95.25 0)
+			(at 238.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5142,7 +7598,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 245.11 95.25 0)
+			(at 238.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5295,7 +7751,7 @@
 	)
 	(symbol
 		(lib_id "Sensor_Pressure:MPXV7007")
-		(at 162.56 140.97 0)
+		(at 118.11 161.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5305,7 +7761,7 @@
 		(dnp no)
 		(uuid "65b45d81-064e-430e-bccc-c85deffd7077")
 		(property "Reference" "U2"
-			(at 151.13 139.6999 0)
+			(at 106.68 160.0199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5316,7 +7772,7 @@
 			)
 		)
 		(property "Value" "MPXV7007"
-			(at 152.4 133.35 0)
+			(at 107.95 153.67 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5327,7 +7783,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 140.97 0)
+			(at 118.11 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5338,7 +7794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 140.97 0)
+			(at 118.11 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5349,7 +7805,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 162.56 140.97 0)
+			(at 118.11 161.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5393,8 +7849,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 276.86 127 0)
+		(lib_id "power:+3.3V")
+		(at 45.72 148.59 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5403,9 +7859,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "759ba93b-09b9-4f3b-96e2-e4fb4eb6ee73")
-		(property "Reference" "#PWR011"
-			(at 276.86 133.35 0)
+		(uuid "72bcf675-0438-414e-bab8-99b4ed047030")
+		(property "Reference" "#PWR07"
+			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5415,8 +7871,8 @@
 				)
 			)
 		)
-		(property "Value" "GND"
-			(at 276.86 132.08 0)
+		(property "Value" "+3.3V"
+			(at 45.72 143.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5426,7 +7882,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 127 0)
+			(at 45.72 148.59 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5437,7 +7893,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 127 0)
+			(at 45.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 45.72 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "53ea17d3-1986-4174-a153-15b7c6fc88e0")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 270.51 102.87 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "759ba93b-09b9-4f3b-96e2-e4fb4eb6ee73")
+		(property "Reference" "#PWR011"
+			(at 270.51 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 270.51 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 270.51 102.87 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 270.51 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5448,7 +7982,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 127 0)
+			(at 270.51 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5471,8 +8005,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 189.23 129.54 0)
+		(lib_id "power:GND")
+		(at 45.72 176.53 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5481,9 +8015,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "81edaac6-4984-4188-ae00-049fa166d4dd")
-		(property "Reference" "#PWR022"
-			(at 189.23 133.35 0)
+		(uuid "79386b7c-6c72-4a44-9813-86e64ed818ca")
+		(property "Reference" "#PWR015"
+			(at 45.72 182.88 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5493,8 +8027,8 @@
 				)
 			)
 		)
-		(property "Value" "+5V"
-			(at 189.23 124.46 0)
+		(property "Value" "GND"
+			(at 45.72 181.61 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5504,7 +8038,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 129.54 0)
+			(at 45.72 176.53 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5515,7 +8049,85 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 129.54 0)
+			(at 45.72 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 45.72 176.53 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "741167b8-b63a-44da-b7b5-f914b6f2571b")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 144.78 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "81edaac6-4984-4188-ae00-049fa166d4dd")
+		(property "Reference" "#PWR022"
+			(at 144.78 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "+5V"
+			(at 144.78 144.78 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 144.78 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5526,7 +8138,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 189.23 129.54 0)
+			(at 144.78 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5549,8 +8161,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 36.83 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "83a13c7c-d073-4263-baf7-2050261c001f")
+		(property "Reference" "D3"
+			(at 36.83 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 36.83 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "abcbfd18-7aec-4c06-8594-9767f43f9923")
+		)
+		(pin "1"
+			(uuid "4a20cd7d-0981-4e14-8de5-9dedf4ea7ac0")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 219.71 127 0)
+		(at 213.36 102.87 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5561,7 +8275,7 @@
 		(fields_autoplaced yes)
 		(uuid "87731953-6097-4f93-ad7e-64db3372d609")
 		(property "Reference" "#PWR09"
-			(at 219.71 133.35 0)
+			(at 213.36 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5572,7 +8286,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 219.71 132.08 0)
+			(at 213.36 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5582,7 +8296,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 219.71 127 0)
+			(at 213.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5593,7 +8307,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 219.71 127 0)
+			(at 213.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5604,7 +8318,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 219.71 127 0)
+			(at 213.36 102.87 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5628,7 +8342,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N4148")
-		(at 80.01 137.16 0)
+		(at 36.83 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5639,7 +8353,7 @@
 		(fields_autoplaced yes)
 		(uuid "8780284a-8df6-4950-8f78-62f49a485e83")
 		(property "Reference" "D1"
-			(at 80.01 130.81 0)
+			(at 36.83 46.99 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5649,7 +8363,7 @@
 			)
 		)
 		(property "Value" "1N4148"
-			(at 80.01 133.35 0)
+			(at 36.83 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5659,7 +8373,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 80.01 137.16 0)
+			(at 36.83 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5670,7 +8384,7 @@
 			)
 		)
 		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
-			(at 80.01 137.16 0)
+			(at 36.83 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5681,7 +8395,7 @@
 			)
 		)
 		(property "Description" "100V 0.15A standard switching diode, DO-35"
-			(at 80.01 137.16 0)
+			(at 36.83 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5692,7 +8406,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 80.01 137.16 0)
+			(at 36.83 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5703,7 +8417,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 80.01 137.16 0)
+			(at 36.83 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5730,7 +8444,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 57.15 77.47 0)
+		(at 74.93 73.66 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5741,7 +8455,7 @@
 		(fields_autoplaced yes)
 		(uuid "87e5829d-6238-4797-b511-3e1b750d36f1")
 		(property "Reference" "key_L2"
-			(at 57.15 69.85 0)
+			(at 74.93 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5751,7 +8465,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 57.15 72.39 0)
+			(at 74.93 68.58 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5761,7 +8475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 72.39 0)
+			(at 74.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5772,7 +8486,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 72.39 0)
+			(at 74.93 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5783,7 +8497,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 57.15 77.47 0)
+			(at 74.93 73.66 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5810,7 +8524,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 57.15 0)
+		(at 256.54 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5819,9 +8533,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "91c26c70-895a-45a9-85a2-afcb27065429")
-		(property "Reference" "#PWR027"
-			(at 170.18 63.5 0)
+		(uuid "883160e2-33fb-40cb-b24f-d4831a5690c5")
+		(property "Reference" "#PWR013"
+			(at 256.54 156.21 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5832,7 +8546,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 62.23 0)
+			(at 256.54 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5842,7 +8556,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 57.15 0)
+			(at 256.54 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5853,7 +8567,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 57.15 0)
+			(at 256.54 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5864,7 +8578,85 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 57.15 0)
+			(at 256.54 149.86 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "86940f21-c810-4137-accf-1365c7e1731e")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "#PWR013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 139.7 76.2 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "91c26c70-895a-45a9-85a2-afcb27065429")
+		(property "Reference" "#PWR027"
+			(at 139.7 82.55 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 139.7 81.28 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 139.7 76.2 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 139.7 76.2 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5887,8 +8679,8 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 30.48 134.62 0)
+		(lib_id "Diode:1N4148")
+		(at 66.04 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5897,9 +8689,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a1aedb47-35ea-4479-a982-1e8a8ce9202f")
-		(property "Reference" "key_HFS"
-			(at 30.48 127 0)
+		(uuid "9b75b361-1066-46df-92e5-4d718f9e8e1d")
+		(property "Reference" "D12"
+			(at 66.04 87.63 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5908,8 +8700,111 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 30.48 129.54 0)
+		(property "Value" "1N4148"
+			(at 66.04 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "54e5c6a8-86f0-40f6-95b7-4e295db78b86")
+		)
+		(pin "1"
+			(uuid "bfafa8e9-e8e3-419c-96f9-bc0db5d207aa")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 223.52 149.86 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1dfdbd4-8d32-4e79-8707-acc80d37b1a0")
+		(property "Reference" "#PWR014"
+			(at 223.52 156.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 223.52 154.94 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5919,7 +8814,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 129.54 0)
+			(at 223.52 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5930,7 +8825,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 129.54 0)
+			(at 223.52 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5940,8 +8835,8 @@
 				)
 			)
 		)
-		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 134.62 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 223.52 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5952,23 +8847,20 @@
 			)
 		)
 		(pin "1"
-			(uuid "7679fca8-f982-48fa-87c8-d889dba2bc0b")
-		)
-		(pin "2"
-			(uuid "12197aba-bd01-421d-8bbf-5f9943b5790e")
+			(uuid "32fc1397-24d3-4552-b7c0-6b163f9beaaa")
 		)
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_HFS")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push")
-		(at 30.48 144.78 0)
+		(lib_id "Device:RotaryEncoder_Switch")
+		(at 245.11 144.78 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5977,9 +8869,9 @@
 		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "aa823eba-f936-4eaf-bfc4-8dfa451f65ad")
-		(property "Reference" "key_TR"
-			(at 30.48 137.16 0)
+		(uuid "aa46f040-312f-469d-8164-0502484bbeca")
+		(property "Reference" "SW1"
+			(at 245.11 134.62 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5988,8 +8880,8 @@
 				)
 			)
 		)
-		(property "Value" "SW_Push"
-			(at 30.48 139.7 0)
+		(property "Value" "RotaryEncoder_Switch"
+			(at 245.11 137.16 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5999,7 +8891,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 139.7 0)
+			(at 241.3 140.716 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6010,7 +8902,96 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 139.7 0)
+			(at 245.11 138.176 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Rotary encoder, dual channel, incremental quadrate outputs, with switch"
+			(at 245.11 144.78 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "A"
+			(uuid "bd73080d-b037-4f57-896c-0e12ad0f3b1f")
+		)
+		(pin "S2"
+			(uuid "83101fa7-eea9-4add-973b-e476689e191f")
+		)
+		(pin "B"
+			(uuid "e67782bf-0da0-48da-b19d-84b790150580")
+		)
+		(pin "S1"
+			(uuid "34bee206-a524-4611-870b-7b9447abcbc7")
+		)
+		(pin "C"
+			(uuid "571fcb83-a69d-41ba-acc9-98372a56d5c6")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "SW1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_Push")
+		(at 45.72 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aa823eba-f936-4eaf-bfc4-8dfa451f65ad")
+		(property "Reference" "key_TR"
+			(at 45.72 106.68 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_Push"
+			(at 45.72 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 45.72 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6021,7 +9002,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 144.78 0)
+			(at 45.72 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6047,8 +9028,314 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 96.52 63.5 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "aae17623-fd00-48c1-85fe-5842264e92e3")
+		(property "Reference" "D16"
+			(at 96.52 57.15 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 96.52 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 63.5 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "244487c5-fe64-4fbe-afb0-f628518b1b02")
+		)
+		(pin "1"
+			(uuid "9a2afc5f-4c0a-4c2b-95df-f649ce7572e7")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 96.52 83.82 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b3dc99ce-e53f-49b2-b457-46278d478879")
+		(property "Reference" "D18"
+			(at 96.52 77.47 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 96.52 80.01 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "967cd1d6-5e51-4353-a8d2-c349d964b027")
+		)
+		(pin "1"
+			(uuid "5986a88e-1df3-406a-ba2b-07b1938477de")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 36.83 93.98 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b4b20d3e-8375-4687-9993-5347cb65dcbf")
+		(property "Reference" "D5"
+			(at 36.83 87.63 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 36.83 90.17 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 36.83 93.98 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "ed612551-2ec6-405e-bee5-0b56aa106f9f")
+		)
+		(pin "1"
+			(uuid "3c7813b9-29f6-4738-9d03-0dfc003ceaa3")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 189.23 153.67 0)
+		(at 144.78 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6059,7 +9346,7 @@
 		(fields_autoplaced yes)
 		(uuid "b5a57796-fcb2-4d09-93ca-072ae724dad3")
 		(property "Reference" "#PWR021"
-			(at 189.23 160.02 0)
+			(at 144.78 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6070,7 +9357,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 189.23 158.75 0)
+			(at 144.78 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6080,7 +9367,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 189.23 153.67 0)
+			(at 144.78 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6091,7 +9378,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 189.23 153.67 0)
+			(at 144.78 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6102,7 +9389,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 189.23 153.67 0)
+			(at 144.78 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6126,7 +9413,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 57.15 57.15 0)
+		(at 74.93 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6137,7 +9424,7 @@
 		(fields_autoplaced yes)
 		(uuid "b7a3cceb-c0ac-4b04-94cc-96ba11e74f3e")
 		(property "Reference" "key_L1"
-			(at 57.15 49.53 0)
+			(at 74.93 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6147,7 +9434,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 57.15 52.07 0)
+			(at 74.93 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6157,7 +9444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 52.07 0)
+			(at 74.93 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6168,7 +9455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 52.07 0)
+			(at 74.93 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6179,7 +9466,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 57.15 57.15 0)
+			(at 74.93 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6206,7 +9493,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 30.48 57.15 0)
+		(at 45.72 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6217,7 +9504,7 @@
 		(fields_autoplaced yes)
 		(uuid "c16722e1-8121-4de1-b49e-9fc0ebc56d88")
 		(property "Reference" "key_L4"
-			(at 30.48 49.53 0)
+			(at 45.72 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6227,7 +9514,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 52.07 0)
+			(at 45.72 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6237,7 +9524,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 52.07 0)
+			(at 45.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6248,7 +9535,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 52.07 0)
+			(at 45.72 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6259,7 +9546,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 57.15 0)
+			(at 45.72 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6286,7 +9573,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 88.9 57.15 0)
+		(at 105.41 53.34 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6297,7 +9584,7 @@
 		(fields_autoplaced yes)
 		(uuid "c2838cbe-16d0-41db-9fd4-299e1b28cb66")
 		(property "Reference" "key_LS3"
-			(at 88.9 49.53 0)
+			(at 105.41 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6307,7 +9594,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 52.07 0)
+			(at 105.41 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6317,7 +9604,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 52.07 0)
+			(at 105.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6328,7 +9615,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 52.07 0)
+			(at 105.41 48.26 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6339,7 +9626,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 88.9 57.15 0)
+			(at 105.41 53.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6366,7 +9653,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 153.67 0)
+		(at 118.11 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6377,7 +9664,7 @@
 		(fields_autoplaced yes)
 		(uuid "c438ff45-1ca3-4d85-87be-07e8a7844b71")
 		(property "Reference" "#PWR08"
-			(at 162.56 160.02 0)
+			(at 118.11 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6388,7 +9675,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 158.75 0)
+			(at 118.11 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6398,7 +9685,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 153.67 0)
+			(at 118.11 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6409,7 +9696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 153.67 0)
+			(at 118.11 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6420,7 +9707,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 153.67 0)
+			(at 118.11 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6443,8 +9730,212 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 66.04 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb72a443-1720-491b-917c-0a9200ac35bf")
+		(property "Reference" "D13"
+			(at 66.04 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 66.04 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 66.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 66.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 66.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "60ba31b2-a987-45e1-90e4-9b68f719b027")
+		)
+		(pin "1"
+			(uuid "407de453-1e7d-44ed-b60a-7024936fc108")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 96.52 104.14 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cc508278-36f5-4691-9b95-0c294604ed81")
+		(property "Reference" "D20"
+			(at 96.52 97.79 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 96.52 100.33 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 104.14 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "b41a8fb1-004c-4c37-a583-4bd107270dea")
+		)
+		(pin "1"
+			(uuid "86507a0e-0172-41bd-b814-046d6be72edd")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
-		(at 172.72 153.67 0)
+		(at 128.27 173.99 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6455,7 +9946,7 @@
 		(fields_autoplaced yes)
 		(uuid "cee64494-b931-433b-981f-e1e6266ece6d")
 		(property "Reference" "#PWR025"
-			(at 172.72 160.02 0)
+			(at 128.27 180.34 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6466,7 +9957,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 158.75 0)
+			(at 128.27 179.07 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6476,7 +9967,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 153.67 0)
+			(at 128.27 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6487,7 +9978,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 153.67 0)
+			(at 128.27 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6498,7 +9989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 153.67 0)
+			(at 128.27 173.99 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6522,7 +10013,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 57.15 67.31 0)
+		(at 74.93 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6533,7 +10024,7 @@
 		(fields_autoplaced yes)
 		(uuid "d3163245-56ce-4324-8f06-394569755bf7")
 		(property "Reference" "key_BF1"
-			(at 57.15 59.69 0)
+			(at 74.93 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6543,7 +10034,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 57.15 62.23 0)
+			(at 74.93 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6553,7 +10044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 62.23 0)
+			(at 74.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6564,7 +10055,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 62.23 0)
+			(at 74.93 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6575,7 +10066,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 57.15 67.31 0)
+			(at 74.93 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6602,7 +10093,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 207.01 115.57 0)
+		(at 200.66 91.44 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6613,7 +10104,7 @@
 		(fields_autoplaced yes)
 		(uuid "d69c568d-ba8b-482a-977f-2b188cbdd5b1")
 		(property "Reference" "#PWR03"
-			(at 207.01 119.38 0)
+			(at 200.66 95.25 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6624,7 +10115,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 207.01 110.49 0)
+			(at 200.66 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6634,7 +10125,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 207.01 115.57 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6645,7 +10136,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 207.01 115.57 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6656,7 +10147,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 207.01 115.57 0)
+			(at 200.66 91.44 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6680,7 +10171,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 276.86 58.42 0)
+		(at 270.51 34.29 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6691,7 +10182,7 @@
 		(fields_autoplaced yes)
 		(uuid "d91382f7-c356-4aa9-81ca-16d98d870a69")
 		(property "Reference" "#PWR012"
-			(at 276.86 64.77 0)
+			(at 270.51 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6702,7 +10193,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 276.86 63.5 0)
+			(at 270.51 39.37 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6712,7 +10203,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 58.42 0)
+			(at 270.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6723,7 +10214,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 276.86 58.42 0)
+			(at 270.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6734,7 +10225,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 276.86 58.42 0)
+			(at 270.51 34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6758,7 +10249,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 57.15 109.22 0)
+		(at 74.93 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6769,7 +10260,7 @@
 		(fields_autoplaced yes)
 		(uuid "d9778691-45ef-4c95-8e05-15f740feb987")
 		(property "Reference" "key_R1"
-			(at 57.15 101.6 0)
+			(at 74.93 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6779,7 +10270,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 57.15 104.14 0)
+			(at 74.93 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6789,7 +10280,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 104.14 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6800,7 +10291,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 104.14 0)
+			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6811,7 +10302,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 57.15 109.22 0)
+			(at 74.93 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6838,7 +10329,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 158.75 49.53 0)
+		(at 128.27 68.58 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6849,7 +10340,7 @@
 		(fields_autoplaced yes)
 		(uuid "db7cca04-1b74-4031-80d4-13998ddb4b2c")
 		(property "Reference" "#PWR026"
-			(at 158.75 53.34 0)
+			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6860,7 +10351,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 158.75 44.45 0)
+			(at 128.27 63.5 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6870,7 +10361,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 49.53 0)
+			(at 128.27 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6881,7 +10372,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 49.53 0)
+			(at 128.27 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6892,7 +10383,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 158.75 49.53 0)
+			(at 128.27 68.58 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6916,7 +10407,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 210.82 64.77 0)
+		(at 204.47 40.64 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -6927,7 +10418,7 @@
 		(fields_autoplaced yes)
 		(uuid "df1f4c0d-469f-4c23-897a-206baf1a33d7")
 		(property "Reference" "#PWR06"
-			(at 210.82 68.58 0)
+			(at 204.47 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6938,7 +10429,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 210.82 59.69 0)
+			(at 204.47 35.56 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -6948,7 +10439,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 210.82 64.77 0)
+			(at 204.47 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6959,7 +10450,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 210.82 64.77 0)
+			(at 204.47 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6970,7 +10461,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 210.82 64.77 0)
+			(at 204.47 40.64 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6994,7 +10485,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 88.9 87.63 0)
+		(at 105.41 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7005,7 +10496,7 @@
 		(fields_autoplaced yes)
 		(uuid "e0aa5666-111a-425f-8eb9-07593849a076")
 		(property "Reference" "key_GS"
-			(at 88.9 80.01 0)
+			(at 105.41 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7015,7 +10506,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 82.55 0)
+			(at 105.41 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7025,7 +10516,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 82.55 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7036,7 +10527,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 82.55 0)
+			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7047,7 +10538,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 88.9 87.63 0)
+			(at 105.41 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7073,8 +10564,110 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 96.52 73.66 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e0b0ecc7-299a-4f07-a74e-ca709c3fdee3")
+		(property "Reference" "D17"
+			(at 96.52 67.31 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 96.52 69.85 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 73.66 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "d86f4275-1eeb-451d-b2a4-deaa4073e732")
+		)
+		(pin "1"
+			(uuid "d8eb10a4-5c35-4a62-a322-734acf1394fe")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 88.9 99.06 0)
+		(at 105.41 93.98 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7085,7 +10678,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2434dab-e9ce-4161-92b2-644d01d57182")
 		(property "Reference" "key_CS"
-			(at 88.9 91.44 0)
+			(at 105.41 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7095,7 +10688,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 93.98 0)
+			(at 105.41 88.9 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7105,7 +10698,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 93.98 0)
+			(at 105.41 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7116,7 +10709,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 93.98 0)
+			(at 105.41 88.9 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7127,7 +10720,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 88.9 99.06 0)
+			(at 105.41 93.98 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7154,7 +10747,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 30.48 67.31 0)
+		(at 45.72 63.5 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7165,7 +10758,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6ecc76b-04b2-4872-9d0e-e8882b11c5e7")
 		(property "Reference" "key_RS3"
-			(at 30.48 59.69 0)
+			(at 45.72 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7175,7 +10768,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 62.23 0)
+			(at 45.72 58.42 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7185,7 +10778,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 62.23 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7196,7 +10789,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 62.23 0)
+			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,7 +10800,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 67.31 0)
+			(at 45.72 63.5 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7234,7 +10827,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 88.9 109.22 0)
+		(at 105.41 104.14 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7245,7 +10838,7 @@
 		(fields_autoplaced yes)
 		(uuid "edfb8eaa-f214-4095-8abb-b40bfe879725")
 		(property "Reference" "key_LB"
-			(at 88.9 101.6 0)
+			(at 105.41 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7255,7 +10848,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 88.9 104.14 0)
+			(at 105.41 99.06 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7265,7 +10858,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 88.9 104.14 0)
+			(at 105.41 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7276,7 +10869,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 88.9 104.14 0)
+			(at 105.41 99.06 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7287,7 +10880,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 88.9 109.22 0)
+			(at 105.41 104.14 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7314,7 +10907,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 30.48 87.63 0)
+		(at 45.72 83.82 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7325,7 +10918,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1ff6edf-f012-441e-9318-bf4a9b293eea")
 		(property "Reference" "key_RS1"
-			(at 30.48 80.01 0)
+			(at 45.72 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7335,7 +10928,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 30.48 82.55 0)
+			(at 45.72 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7345,7 +10938,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 30.48 82.55 0)
+			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7356,7 +10949,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 30.48 82.55 0)
+			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7367,7 +10960,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 30.48 87.63 0)
+			(at 45.72 83.82 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7393,8 +10986,198 @@
 		)
 	)
 	(symbol
+		(lib_id "Display_Graphic:ER_OLEDM0.91_1x-I2C")
+		(at 45.72 162.56 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f4bf0f26-acbc-4a87-9ee6-9666cb631fc4")
+		(property "Reference" "U5"
+			(at 54.61 161.2899 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "ER_OLEDM0.91_1x-I2C"
+			(at 54.61 163.8299 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Display:ER_OLEDM0.91_1x-I2C"
+			(at 63.754 175.26 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://www.buydisplay.com/download/manual/ER-OLEDM0.91-1_Datasheet.pdf"
+			(at 88.392 177.292 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "SSD1306 OLED module, 0.91 inch, 128x32, I2C"
+			(at 72.39 179.324 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "96b3a3cd-82da-4096-b3b0-7e795b6ae463")
+		)
+		(pin "2"
+			(uuid "dc600ad4-091c-4931-a4b0-2a0b1a7b7a5d")
+		)
+		(pin "4"
+			(uuid "409bd240-c32c-4936-9541-b021516d6e6a")
+		)
+		(pin "3"
+			(uuid "33297b99-a917-47f0-8334-19840066fae7")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148")
+		(at 96.52 114.3 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fcef45cd-0572-4c7d-ab40-30e48191dbbf")
+		(property "Reference" "D21"
+			(at 96.52 107.95 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 96.52 110.49 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 96.52 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "fa5bbd7b-5dce-448a-85f9-947c50005b11")
+		)
+		(pin "1"
+			(uuid "f6de7102-5931-41d3-a749-8dbe9d7f8bd6")
+		)
+		(instances
+			(project "digisax"
+				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 57.15 129.54 0)
+		(at 74.93 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7405,7 +11188,7 @@
 		(fields_autoplaced yes)
 		(uuid "fcf50108-561d-45f4-b13b-8c9718493ce0")
 		(property "Reference" "key_R3"
-			(at 57.15 121.92 0)
+			(at 74.93 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7415,7 +11198,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 57.15 124.46 0)
+			(at 74.93 109.22 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7425,7 +11208,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 124.46 0)
+			(at 74.93 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7436,7 +11219,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 124.46 0)
+			(at 74.93 109.22 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7447,7 +11230,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 57.15 129.54 0)
+			(at 74.93 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7474,7 +11257,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 162.56 129.54 0)
+		(at 118.11 149.86 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -7485,7 +11268,7 @@
 		(fields_autoplaced yes)
 		(uuid "fe3ddb19-d1be-4dd0-a887-c3b9b4451a05")
 		(property "Reference" "#PWR02"
-			(at 162.56 133.35 0)
+			(at 118.11 153.67 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7496,7 +11279,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 162.56 124.46 0)
+			(at 118.11 144.78 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -7506,7 +11289,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 129.54 0)
+			(at 118.11 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7517,7 +11300,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 129.54 0)
+			(at 118.11 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7528,7 +11311,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 162.56 129.54 0)
+			(at 118.11 149.86 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
