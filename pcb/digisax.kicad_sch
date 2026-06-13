@@ -34,7 +34,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "digisax_stuff:ESP32-S3-DevKitC-1"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -1089,7 +1089,7 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "digisax_stuff:adafruit_TLV320DAC3100"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5862,7 +5862,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "002fd314-ccb4-4807-86e0-6dfa9f1a8516")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR07"
 			(at 132.08 157.48 0)
 			(hide yes)
 			(show_name no)
@@ -5922,7 +5922,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR023")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -5940,7 +5940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02762c8a-84a9-4f29-80ed-027a51f635a0")
-		(property "Reference" "U4"
+		(property "Reference" "U3"
 			(at 146.9233 149.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6013,7 +6013,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "U4")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -6153,7 +6153,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 74.93 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6213,7 +6213,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10032b07-d007-4e84-b362-09f535c2049e")
-		(property "Reference" "key_LS1"
+		(property "Reference" "key_LS3"
 			(at 105.41 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6233,7 +6233,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 105.41 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6275,7 +6275,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_LS1")
+					(reference "key_LS3")
 					(unit 1)
 				)
 			)
@@ -6293,7 +6293,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "10f51d57-c625-4406-843e-c592fcb6c2be")
-		(property "Reference" "key_DS"
+		(property "Reference" "key_DS1"
 			(at 45.72 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6313,7 +6313,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 45.72 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -6355,7 +6355,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_DS")
+					(reference "key_DS1")
 					(unit 1)
 				)
 			)
@@ -6475,7 +6475,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "14df4311-dc0b-4b29-84b3-296428cd4636")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR011"
 			(at 187.96 81.28 0)
 			(hide yes)
 			(show_name no)
@@ -6535,7 +6535,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR024")
+					(reference "#PWR011")
 					(unit 1)
 				)
 			)
@@ -6553,7 +6553,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "168f7b08-30af-4ca0-947d-ac78f3c9d171")
-		(property "Reference" "#PWR010"
+		(property "Reference" "#PWR020"
 			(at 264.16 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -6613,7 +6613,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR010")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -6733,7 +6733,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1f54c304-b8cc-4335-9ea1-91bae2c72650")
-		(property "Reference" "key_C"
+		(property "Reference" "key_C1"
 			(at 45.72 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6753,7 +6753,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 45.72 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -6795,7 +6795,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_C")
+					(reference "key_C1")
 					(unit 1)
 				)
 			)
@@ -6833,7 +6833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 74.93 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -6995,7 +6995,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39fcf5a0-6846-4b33-bb8d-c34612ad77c2")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR016"
 			(at 212.09 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -7055,7 +7055,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR05")
+					(reference "#PWR016")
 					(unit 1)
 				)
 			)
@@ -7072,7 +7072,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3bbbe778-f797-4b70-a029-054787bb631c")
-		(property "Reference" "U1"
+		(property "Reference" "U4"
 			(at 132.08 40.64 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7094,7 +7094,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:adafruit_TLV320DAC3100"
 			(at 148.59 53.34 0)
 			(hide yes)
 			(show_name no)
@@ -7184,7 +7184,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "U1")
+					(reference "U4")
 					(unit 1)
 				)
 			)
@@ -7304,7 +7304,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42834e65-8866-495e-9888-a4040fa55137")
-		(property "Reference" "#PWR017"
+		(property "Reference" "#PWR014"
 			(at 201.93 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -7364,7 +7364,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR017")
+					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4857cdfc-9697-4e47-89e5-26173235b623")
-		(property "Reference" "key_LBF"
+		(property "Reference" "key_LBF1"
 			(at 105.41 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7708,7 +7708,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 105.41 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -7750,7 +7750,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_LBF")
+					(reference "key_LBF1")
 					(unit 1)
 				)
 			)
@@ -7870,7 +7870,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 105.41 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -8154,7 +8154,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 45.72 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8398,7 +8398,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6285bdea-f680-467c-9b3c-281416e91beb")
-		(property "Reference" "U3"
+		(property "Reference" "U5"
 			(at 238.76 33.02 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8418,7 +8418,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:ESP32-S3-DevKitC-1"
 			(at 238.76 71.12 0)
 			(hide yes)
 			(show_name no)
@@ -8586,7 +8586,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "U3")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -8625,7 +8625,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:MPXV7007DP"
 			(at 118.11 161.29 0)
 			(hide yes)
 			(show_name no)
@@ -8818,7 +8818,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "72bcf675-0438-414e-bab8-99b4ed047030")
-		(property "Reference" "#PWR07"
+		(property "Reference" "#PWR01"
 			(at 45.72 152.4 0)
 			(hide yes)
 			(show_name no)
@@ -8878,7 +8878,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR07")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -8896,7 +8896,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7494444d-45b9-4c5e-8658-1063ad62f328")
-		(property "Reference" "C4"
+		(property "Reference" "C3"
 			(at 191.77 69.8499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8960,7 +8960,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "C4")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -8978,7 +8978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "759ba93b-09b9-4f3b-96e2-e4fb4eb6ee73")
-		(property "Reference" "#PWR011"
+		(property "Reference" "#PWR022"
 			(at 270.51 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9038,7 +9038,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR011")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -9056,7 +9056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "79386b7c-6c72-4a44-9813-86e64ed818ca")
-		(property "Reference" "#PWR015"
+		(property "Reference" "#PWR02"
 			(at 45.72 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -9116,7 +9116,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR015")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -9134,7 +9134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7a4c0b3d-70c7-4dc2-9a33-9d6525f4cd73")
-		(property "Reference" "#PWR016"
+		(property "Reference" "#PWR013"
 			(at 187.96 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9194,7 +9194,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR016")
+					(reference "#PWR013")
 					(unit 1)
 				)
 			)
@@ -9212,7 +9212,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "81edaac6-4984-4188-ae00-049fa166d4dd")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR09"
 			(at 144.78 147.32 0)
 			(hide yes)
 			(show_name no)
@@ -9272,7 +9272,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR022")
+					(reference "#PWR09")
 					(unit 1)
 				)
 			)
@@ -9392,7 +9392,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "87731953-6097-4f93-ad7e-64db3372d609")
-		(property "Reference" "#PWR09"
+		(property "Reference" "#PWR017"
 			(at 213.36 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -9452,7 +9452,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR09")
+					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -9592,7 +9592,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 74.93 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -9652,7 +9652,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "883160e2-33fb-40cb-b24f-d4831a5690c5")
-		(property "Reference" "#PWR013"
+		(property "Reference" "#PWR019"
 			(at 256.54 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9712,7 +9712,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR013")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -9730,7 +9730,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91c26c70-895a-45a9-85a2-afcb27065429")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR08"
 			(at 139.7 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -9790,7 +9790,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR027")
+					(reference "#PWR08")
 					(unit 1)
 				)
 			)
@@ -9910,7 +9910,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1dfdbd4-8d32-4e79-8707-acc80d37b1a0")
-		(property "Reference" "#PWR014"
+		(property "Reference" "#PWR018"
 			(at 223.52 156.21 0)
 			(hide yes)
 			(show_name no)
@@ -9970,7 +9970,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR014")
+					(reference "#PWR018")
 					(unit 1)
 				)
 			)
@@ -9988,7 +9988,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a1ee799c-d3d1-4512-84f1-ab80339ff402")
-		(property "Reference" "C3"
+		(property "Reference" "C4"
 			(at 205.74 96.9009 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10052,7 +10052,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "C3")
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -10090,7 +10090,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Rotary_Encoder:RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm"
 			(at 241.3 140.716 0)
 			(hide yes)
 			(show_name no)
@@ -10159,7 +10159,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa823eba-f936-4eaf-bfc4-8dfa451f65ad")
-		(property "Reference" "key_FORK"
+		(property "Reference" "key_FORK1"
 			(at 45.72 106.68 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10179,7 +10179,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 45.72 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -10221,7 +10221,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_FORK")
+					(reference "key_FORK1")
 					(unit 1)
 				)
 			)
@@ -10545,7 +10545,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b5a57796-fcb2-4d09-93ca-072ae724dad3")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR010"
 			(at 144.78 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10605,7 +10605,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR021")
+					(reference "#PWR010")
 					(unit 1)
 				)
 			)
@@ -10643,7 +10643,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 74.93 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10703,7 +10703,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c16722e1-8121-4de1-b49e-9fc0ebc56d88")
-		(property "Reference" "key_8VE"
+		(property "Reference" "key_8VE1"
 			(at 45.72 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10723,7 +10723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 45.72 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10765,7 +10765,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_8VE")
+					(reference "key_8VE1")
 					(unit 1)
 				)
 			)
@@ -10783,7 +10783,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c2838cbe-16d0-41db-9fd4-299e1b28cb66")
-		(property "Reference" "key_LS3"
+		(property "Reference" "key_LS1"
 			(at 105.41 45.72 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10803,7 +10803,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 105.41 48.26 0)
 			(hide yes)
 			(show_name no)
@@ -10845,7 +10845,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_LS3")
+					(reference "key_LS1")
 					(unit 1)
 				)
 			)
@@ -10863,7 +10863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c438ff45-1ca3-4d85-87be-07e8a7844b71")
-		(property "Reference" "#PWR08"
+		(property "Reference" "#PWR04"
 			(at 118.11 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -10923,7 +10923,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR08")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -11145,7 +11145,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cee64494-b931-433b-981f-e1e6266ece6d")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR06"
 			(at 128.27 180.34 0)
 			(hide yes)
 			(show_name no)
@@ -11205,7 +11205,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR025")
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -11243,7 +11243,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 74.93 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -11303,7 +11303,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d69c568d-ba8b-482a-977f-2b188cbdd5b1")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR012"
 			(at 187.96 96.52 0)
 			(hide yes)
 			(show_name no)
@@ -11363,7 +11363,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR03")
+					(reference "#PWR012")
 					(unit 1)
 				)
 			)
@@ -11381,7 +11381,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d91382f7-c356-4aa9-81ca-16d98d870a69")
-		(property "Reference" "#PWR012"
+		(property "Reference" "#PWR021"
 			(at 270.51 40.64 0)
 			(hide yes)
 			(show_name no)
@@ -11441,7 +11441,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR012")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -11479,7 +11479,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 74.93 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11539,7 +11539,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "db7cca04-1b74-4031-80d4-13998ddb4b2c")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR05"
 			(at 128.27 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -11599,7 +11599,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR026")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -11617,7 +11617,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df1f4c0d-469f-4c23-897a-206baf1a33d7")
-		(property "Reference" "#PWR06"
+		(property "Reference" "#PWR015"
 			(at 204.47 44.45 0)
 			(hide yes)
 			(show_name no)
@@ -11677,7 +11677,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR06")
+					(reference "#PWR015")
 					(unit 1)
 				)
 			)
@@ -11695,7 +11695,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e0aa5666-111a-425f-8eb9-07593849a076")
-		(property "Reference" "key_GS"
+		(property "Reference" "key_GS1"
 			(at 105.41 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11715,7 +11715,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 105.41 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -11757,7 +11757,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_GS")
+					(reference "key_GS1")
 					(unit 1)
 				)
 			)
@@ -11877,7 +11877,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e2434dab-e9ce-4161-92b2-644d01d57182")
-		(property "Reference" "key_CS"
+		(property "Reference" "key_CS1"
 			(at 105.41 86.36 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11897,7 +11897,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 105.41 88.9 0)
 			(hide yes)
 			(show_name no)
@@ -11939,7 +11939,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_CS")
+					(reference "key_CS1")
 					(unit 1)
 				)
 			)
@@ -11957,7 +11957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ecc76b-04b2-4872-9d0e-e8882b11c5e7")
-		(property "Reference" "key_RS3"
+		(property "Reference" "key_RS1"
 			(at 45.72 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -11977,7 +11977,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 45.72 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -12019,7 +12019,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_RS3")
+					(reference "key_RS1")
 					(unit 1)
 				)
 			)
@@ -12037,7 +12037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "edfb8eaa-f214-4095-8abb-b40bfe879725")
-		(property "Reference" "key_LB"
+		(property "Reference" "key_LB1"
 			(at 105.41 96.52 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12057,7 +12057,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 105.41 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -12099,7 +12099,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_LB")
+					(reference "key_LB1")
 					(unit 1)
 				)
 			)
@@ -12117,7 +12117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ff6edf-f012-441e-9318-bf4a9b293eea")
-		(property "Reference" "key_RS1"
+		(property "Reference" "key_RS3"
 			(at 45.72 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12137,7 +12137,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 45.72 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -12179,7 +12179,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_RS1")
+					(reference "key_RS3")
 					(unit 1)
 				)
 			)
@@ -12197,7 +12197,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f4bf0f26-acbc-4a87-9ee6-9666cb631fc4")
-		(property "Reference" "U5"
+		(property "Reference" "U1"
 			(at 54.61 161.2899 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12267,7 +12267,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "U5")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -12407,7 +12407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 74.93 109.22 0)
 			(hide yes)
 			(show_name no)
@@ -12467,7 +12467,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe3ddb19-d1be-4dd0-a887-c3b9b4451a05")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 118.11 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12527,7 +12527,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
