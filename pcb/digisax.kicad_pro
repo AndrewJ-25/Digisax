@@ -468,7 +468,9 @@
     }
   },
   "libraries": {
-    "pinned_footprint_libs": [],
+    "pinned_footprint_libs": [
+      "digisax_stuff"
+    ],
     "pinned_symbol_libs": []
   },
   "meta": {
