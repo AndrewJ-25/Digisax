@@ -8134,7 +8134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "587dec46-45f7-4717-99bb-2976068dfdd0")
-		(property "Reference" "key_RS2"
+		(property "Reference" "key_Rside2"
 			(at 45.72 66.04 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8196,7 +8196,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_RS2")
+					(reference "key_Rside2")
 					(unit 1)
 				)
 			)
@@ -11957,7 +11957,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ecc76b-04b2-4872-9d0e-e8882b11c5e7")
-		(property "Reference" "key_RS1"
+		(property "Reference" "key_Rside1"
 			(at 45.72 55.88 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12019,7 +12019,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_RS1")
+					(reference "key_Rside1")
 					(unit 1)
 				)
 			)
@@ -12117,7 +12117,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f1ff6edf-f012-441e-9318-bf4a9b293eea")
-		(property "Reference" "key_RS3"
+		(property "Reference" "key_Rside3"
 			(at 45.72 76.2 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12179,7 +12179,7 @@
 		(instances
 			(project "digisax"
 				(path "/eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
-					(reference "key_RS3")
+					(reference "key_Rside3")
 					(unit 1)
 				)
 			)
