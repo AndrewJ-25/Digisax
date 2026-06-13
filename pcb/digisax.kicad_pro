@@ -640,7 +640,7 @@
         "uuid": "eb5dc4d3-8e2b-4a19-9d6b-e55e1d276974"
       }
     ],
-    "used_designators": "key_RS1-3,key_R1-3,key_LBF1,key_LB1,key_L1-3,key_GS1,key_C1,key_FORK1,key_DS1,key_CS1,key_BF1,BT1,key_8VE1,#PWR1-22,D1-21,U1-5,SW1,key_LS1-3,C1-4",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [

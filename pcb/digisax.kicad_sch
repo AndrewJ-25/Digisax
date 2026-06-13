@@ -7790,7 +7790,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 133.0452 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -8327,7 +8327,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C470pF"
+		(property "Value" "470pF"
 			(at 132.08 171.4499 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8338,7 +8338,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 129.2352 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8725,7 +8725,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:5V0_terminal"
 			(at 187.96 97.536 90)
 			(hide yes)
 			(show_name no)
@@ -8918,7 +8918,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:C_Disc_D4.7mm_W2.5mm_P5.00mm"
 			(at 188.9252 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -10010,7 +10010,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D6.3mm_P2.50mm"
 			(at 202.8952 102.87 0)
 			(hide yes)
 			(show_name no)
