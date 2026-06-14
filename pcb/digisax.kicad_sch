@@ -7584,7 +7584,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:pad_1x4"
 			(at 24.13 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -7750,7 +7750,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:pad_1x3"
 			(at 24.13 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -10852,7 +10852,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:pad_1x4"
 			(at 52.07 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -11276,7 +11276,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:pad_1x5"
 			(at 137.16 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -12498,7 +12498,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:pad_1x3"
 			(at 52.07 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -12659,7 +12659,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:pad_1x4"
 			(at 166.37 50.8 0)
 			(hide yes)
 			(show_name no)
@@ -14089,7 +14089,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:pad_1x5"
 			(at 163.83 93.98 0)
 			(hide yes)
 			(show_name no)
@@ -14178,7 +14178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "digisax_stuff:pad_1x4"
 			(at 137.16 50.8 0)
 			(hide yes)
 			(show_name no)
