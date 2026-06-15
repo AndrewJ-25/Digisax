@@ -14,12 +14,13 @@ See images/digisax_schematic.pdf for better resolution image
 - keys arranged in a matrix of 3 Columns * 7 Rows
 - breath sensor consisting of MPXV7007 differential pressure sensor + mcp3221 ADC to communicate over I2C
 - rotary encoder to adjust volume
+- headphone output via adafruit tlv320dac3100 DAC, controlled with I2C and I2S https://learn.adafruit.com/adafruit-tlv320dac3100-i2s-dac
 
 
 ## BOM
 |Quantity|Description|Identifier|Source|
 |-|-|-|-|
-|1|DAC amplifier|MAX98357A I2S|-|
+|1|DAC amplifier|adafruit tlv320dac3100 breakout board|-|
 |1|MCU dev-board|ESP32-S3-DevKitC-1|-|
 |1|Differential pressure sensor|MPXV7007DP|-|
 |1|I2C ADC|mcp3221|
