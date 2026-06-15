@@ -22,7 +22,7 @@ See images/digisax_schematic.pdf for better resolution image
 |1|DAC amplifier|MAX98357A I2S|-|
 |1|MCU dev-board|ESP32-S3-DevKitC-1|-|
 |1|Differential pressure sensor|MPXV7007DP|-|
-|1|I2C ADC|mcp3221-|
+|1|I2C ADC|mcp3221|
 |-|Keyboard switches|Cherry MX Black|-|
 |1|0.91" OLED display|-|-|
 |1|rotary encoder|EC11|-|
