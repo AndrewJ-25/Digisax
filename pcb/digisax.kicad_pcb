@@ -31183,36 +31183,6 @@
 		(net "Net-(D2-A)")
 		(uuid "8e799f77-8607-4fe3-9921-8f24b3604add")
 	)
-	(zone
-		(layers "F.Cu" "B.Cu")
-		(uuid "82b12a60-be0b-433c-b654-025ab2e67be0")
-		(hatch edge 0.5)
-		(connect_pads
-			(clearance 0)
-		)
-		(min_thickness 0.25)
-		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
-			(copperpour allowed)
-			(footprints allowed)
-		)
-		(placement
-			(enabled no)
-			(sheetname "")
-		)
-		(fill
-			(thermal_gap 0.5)
-			(thermal_bridge_width 0.5)
-			(island_removal_mode 0)
-		)
-		(polygon
-			(pts
-				(xy 183.5 270.5) (xy 195.5 270.5) (xy 195.5 302) (xy 183.5 302)
-			)
-		)
-	)
 	(group ""
 		(uuid "fa2ddd9f-cfe9-439d-b7d7-09b837943957")
 		(members "6be01964-ceba-4f97-88b6-949adb4e2457" "9b38295f-0a12-4708-8652-a99a626c0363")
