@@ -49,15 +49,16 @@ PCB back
 |1|5.44|cork sheet|-|https://www.ebay.co.uk/itm/277911247699|
 |TOTAL|-|-|-|-|
 
-## Acknowledgements <3
-
-Massive thank you to Rehan for sacrificing his sleep to write the firmware.
-
-Also to Sua for designing a BANGING zine.
 
 ## Code
 
-This code was written in C++ and I started by pulling all the column pins up by internal pull ups of the esp-32 and then i went with the getting all the row pins set to high and then started a loop where everytime i pull all the rows high and keep one row low and match that with the column if some column is low and has a bridge btw it and the row through a switch the code will print the row and the column on the serial monitor and also now it can detect multiple keys at once and map which note has been played and then according to that map which wave to be played i will refactor the waves and how play them when i build irl it's not possible now
+Firmware is written in C++.
+
+Column pins use the ESP-32's internal pullup, and all row pins are set to high. I implemented a loop where all the rows are pulled high by default, and any column which is detected as low is matched with the key's corresponding row.
+
+At the moment the code detects simultaneous key presses and prints the note which the current fingering corresponds to. Matrix and fingering mappings can be found in the code/ directory.
+
+Note synthesis and volume control via the rotary encoder will be implemented once the project is built.
 
 ```cpp
 #include <Arduino.h>
@@ -268,3 +269,8 @@ void loop()
 }
 ```
 
+## Acknowledgements <3
+
+Massive thank you to Rehan for sacrificing his sleep to write the firmware.
+
+Also to Sua for designing a BANGING zine.
