@@ -67,7 +67,6 @@ An unrouted, fragmented pcb can be found in the pcb directory. A routed, panelis
 ## BOM
 |Quantity|Total cost/GBP|Description|MPN|Suggested source|
 |-|-|-|-|-|
-|-|10|3D printed parts|-|-|
 |1|16.88|PCB|-|https://jlcpcb.com/|
 |1|6.30|DAC amplifier|Adafruit TLV320DAC3100 breakout board|https://thepihut.com/products/adafruit-tlv320dac3100-i2s-dac-with-headphone-and-speaker-out|
 |1|10.40|MCU|ESP32-S3-DevKitC-1|https://www.aliexpress.com/item/1005009298826918.html|
@@ -83,6 +82,7 @@ An unrouted, fragmented pcb can be found in the pcb directory. A routed, panelis
 |29|8.88 (100 pcs)|Heat-set insert M3|M3 * 4 * 4.5|https://www.ebay.co.uk/itm/376068195160|
 |1|3.20|Food grade silicone hose|ID 3mm OD 5mm length 1mm|https://www.ebay.co.uk/itm/227352704780?var=526554578797|
 |1|5.44|cork sheet|~2mm thickness|https://www.ebay.co.uk/itm/277911247699|
+|-|10|3D printed parts|-|-|
 |TOTAL|108.53|-|-|-|
 
 
