@@ -38,7 +38,7 @@ PCB back
 2. 3D printed parts to contain M3 heatset inserts.
 3. Cut two lengths of food grade silicone tubing, 70mm (pressure tube) and 240mm (bleed tube) in length.
 4. All plumbing is a push fit. Connect the pressure tube between the neck and pressure sensor. Bleed tube carries condensation from the neck to the bottom of the instrument. Holes in the right-hand-pinky-keys can hold the bleed tube in place.
-5. All keycaps are a push fit.
+5. All keycaps are a push fit. See images at bottom of page for correct placement.
 6. Wrap cork around the neck to ensure an airtight fit with the mouthpiece.
 
 3D printed parts:
