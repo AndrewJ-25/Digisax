@@ -4,19 +4,32 @@ Will be completed before the end of June
 
 ESP32 controlled wind synth
 
-# Schematic
+## Description
+STARLITE is a minimalist Digital Saxophone (Digisax) controlled by ESP32-S3.
+
+Features:
+- realistic ergonomics
+- UI in the form of an OLED display and rotary encoder, to control master volume and timbre
+- differential pressure sensor for responsive breath control
+- audio synthesised locally
+- 3x7 key matrix featuring MX Black switches
+- power via 5V barrel jack
+- headphone output
+
+## Schematic and PCB
 
 ![Alt text](images/digisax_schematic.jpg)
 See images/digisax_schematic.pdf for better resolution image
 
-# Description
-- ESP32-S3-DevKitC-1 microcontroller
-- keys arranged in a matrix of 3 Columns * 7 Rows
-- breath sensor consisting of MPXV7007 differential pressure sensor + mcp3221 ADC to communicate over I2C
-- rotary encoder to adjust volume
-- headphone output via adafruit tlv320dac3100 DAC, controlled with I2C and I2S https://learn.adafruit.com/adafruit-tlv320dac3100-i2s-dac
+![Alt text](images/pcb_front.png)
+PCB front
 
-# Code 
+![Alt text](images/pcb_back.png)
+PCB back
+
+## Assembly
+
+## Code 
 
 ```cpp
 #include <Arduino.h>
@@ -231,17 +244,25 @@ This code was written in C++ and I started by pulling all the column pins up by 
 
 
 ## BOM
-|Quantity|Cost/GBP|Description|MPN|Source|
+|Quantity|Cost/GBP|Description|MPN|Suggested source|
 |-|-|-|-|-|
 |-|10|3D printed parts|-|-|
 |1|16.88|PCB|-|https://jlcpcb.com/|
 |1|6.30|DAC amplifier|Adafruit TLV320DAC3100 breakout board|https://thepihut.com/products/adafruit-tlv320dac3100-i2s-dac-with-headphone-and-speaker-out|
 |1|10.40|MCU|ESP32-S3-DevKitC-1|https://www.aliexpress.com/item/1005009298826918.html|
 |1|5.73|Differential pressure sensor|MPXV7007DP|https://www.aliexpress.com/item/1005009368234291.html|
-|1|1.43|I2C ADC|mcp3221|https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3221A7T-E-OT?qs=uHi2%2FQoPa5B%2FLE1GKuvdgg%3D%3D|
+|1|1.43|I2C ADC|MCP3221|https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3221A7T-E-OT?qs=uHi2%2FQoPa5B%2FLE1GKuvdgg%3D%3D|
 |21|23.49 (30pcs)|Keyboard switches|Cherry MX Black|https://www.ebay.co.uk/itm/203537430495?_skw=mx+black+switch|
 |1|3.80|0.91" OLED display|SSD1306|https://www.aliexpress.com/item/1005006365845676.html|
 |1|1.16|rotary encoder|EC11|https://www.aliexpress.com/item/1005005983134515.html|
-|-|-|Screw M3|-|-|
-|-|-|Heatset insert M3|-|-|
-|-|-|Silicon hose|-|-|
+|29|5.75 (50 pcs)|Screw M3|M3 * 12 Phillip's head|https://www.ebay.co.uk/itm/221326204336|
+|29|8.88 (100 pcs)|Heat-set insert M3|M3 * 4 * 4.5|https://www.ebay.co.uk/itm/376068195160|
+|1|3.20|Food grade silicone hose|ID 3mm OD 5mm length 1mm|https://www.ebay.co.uk/itm/227352704780?var=526554578797|
+|1|5.44|cork sheet|-|https://www.ebay.co.uk/itm/277911247699|
+|TOTAL|-|-|-|-|
+
+## Acknowledgements <3
+
+Massive thank you to Rehan for sacrificing his sleep to write the firmware.
+
+Also to Sua for designing a PEAK zine.
