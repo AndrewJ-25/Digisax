@@ -11,24 +11,34 @@ Features:
 - realistic ergonomics
 - UI in the form of an OLED display and rotary encoder, to control master volume and timbre
 - differential pressure sensor for responsive breath control
+- pressure tube and bleed tube to simulate realistic resistance to blowing
 - audio synthesised locally
 - 3x7 key matrix featuring MX Black switches
 - power via 5V barrel jack
 - headphone output
 
+The neck can be blown into directly, but an alto saxophone mouthpiece is recommended. (Not included in this project)
+
 ## Schematic and PCB
 
-![Alt text](images/digisax_schematic.jpg)
-See images/digisax_schematic.pdf for better resolution image
+![Alt text](images/schematic.png)
+A pdf version can be found in the pcb/ directory.
+
 
 ![Alt text](images/pcb_front.png)
 PCB front
 
+
 ![Alt text](images/pcb_back.png)
 PCB back
 
-## Assembly
 
+## Assembly
+1. All parts can be handsoldered. I recommend soldering the keyswitches last.
+2. 3D printed parts to contain M3 heatset inserts.
+3. Cut two lengths of food grade silicone tubing, 70mm (pressure tube) and 240mm (bleed tube) in length.
+4. All plumbing is a push fit. Connect the pressure tube between the neck and pressure sensor. Bleed tube carries condensation from the neck to the bottom of the instrument. Holes in the right-hand-pinky-keys can hold the bleed tube in place.
+5. Wrap cork around the neck to ensure an airtight fit with the mouthpiece.
 
 
 ## BOM
@@ -274,3 +284,5 @@ void loop()
 Massive thank you to Rehan for sacrificing his sleep to write the firmware.
 
 Also to Sua for designing a BANGING zine.
+
+## More images
