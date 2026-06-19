@@ -231,12 +231,17 @@ This code was written in C++ and I started by pulling all the column pins up by 
 
 
 ## BOM
-|Quantity|Description|Identifier|Source|
-|-|-|-|-|
-|1|DAC amplifier|adafruit tlv320dac3100 breakout board|-|
-|1|MCU dev-board|ESP32-S3-DevKitC-1|-|
-|1|Differential pressure sensor|MPXV7007DP|-|
-|1|I2C ADC|mcp3221|
-|-|Keyboard switches|Cherry MX Black|-|
-|1|0.91" OLED display|-|-|
-|1|rotary encoder|EC11|-|
+|Quantity|Cost/GBP|Description|MPN|Source|
+|-|-|-|-|-|
+|-|10|3D printed parts|-|-|
+|1|16.88|PCB|-|https://jlcpcb.com/|
+|1|6.30|DAC amplifier|Adafruit TLV320DAC3100 breakout board|https://thepihut.com/products/adafruit-tlv320dac3100-i2s-dac-with-headphone-and-speaker-out|
+|1|10.40|MCU|ESP32-S3-DevKitC-1|https://www.aliexpress.com/item/1005009298826918.html|
+|1|5.73|Differential pressure sensor|MPXV7007DP|https://www.aliexpress.com/item/1005009368234291.html|
+|1|1.43|I2C ADC|mcp3221|https://www.mouser.co.uk/ProductDetail/Microchip-Technology/MCP3221A7T-E-OT?qs=uHi2%2FQoPa5B%2FLE1GKuvdgg%3D%3D|
+|21|23.49 (30pcs)|Keyboard switches|Cherry MX Black|https://www.ebay.co.uk/itm/203537430495?_skw=mx+black+switch|
+|1|3.80|0.91" OLED display|SSD1306|https://www.aliexpress.com/item/1005006365845676.html|
+|1|1.16|rotary encoder|EC11|https://www.aliexpress.com/item/1005005983134515.html|
+|-|-|Screw M3|-|-|
+|-|-|Heatset insert M3|-|-|
+|-|-|Silicon hose|-|-|
