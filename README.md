@@ -83,7 +83,7 @@ An unrouted, fragmented pcb can be found in the pcb directory. A routed, panelis
 |29|8.88 (100 pcs)|Heat-set insert M3|M3 * 4 * 4.5|https://www.ebay.co.uk/itm/376068195160|
 |1|3.20|Food grade silicone hose|ID 3mm OD 5mm length 1mm|https://www.ebay.co.uk/itm/227352704780?var=526554578797|
 |1|5.44|cork sheet|~2mm thickness|https://www.ebay.co.uk/itm/277911247699|
-|TOTAL|-|-|-|-|
+|TOTAL|108.53|-|-|-|
 
 
 
