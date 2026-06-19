@@ -1,5 +1,5 @@
 Qty,Cost,Category,Description,URL
-,10,3D printed parts,,
+1,10,3D printed parts,,
 1,16.88,PCB,,https://jlcpcb.com/
 1,6.30,DAC amplifier,Adafruit TLV320DAC3100 breakout board,https://thepihut.com/products/adafruit-tlv320dac3100-i2s-dac-with-headphone-and-speaker-out
 1,10.40,MCU,ESP32-S3-DevKitC-1,https://www.aliexpress.com/item/1005009298826918.html
