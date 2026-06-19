@@ -4,7 +4,7 @@
 
 
 ## Description
-STARLITE is a minimalist Digital Saxophone (Digisax) controlled by ESP32-S3.
+STARLITE is a minimalist Digital Saxophone (Digisax) controlled by ESP32-S3. This project is intended to be a cost effective, customisable alternative to commercially available wind synths. STARLITE can be used for both performance and silent practice. It weds my two favorite hobbies: music and tinkering.
 
 Features:
 - realistic ergonomics
