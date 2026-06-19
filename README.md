@@ -17,32 +17,53 @@ Features:
 - power via 5V barrel jack
 - headphone output
 
-The neck can be blown into directly, but an alto saxophone mouthpiece is recommended. (Not included in this project)
+The neck can be blown into directly, but an alto saxophone mouthpiece is recommended. (Not included in this project.)
 
 ## Schematic and PCB
 
-![Alt text](images/schematic.png)
+![Schematic view](images/schematic.png)
 A pdf version can be found in the pcb/ directory.
 
 
-![Alt text](images/pcb_front.png)
+![pcb front](images/pcb_front.png)
 PCB front
 
 
-![Alt text](images/pcb_back.png)
+![pcb back](images/pcb_back.png)
 PCB back
 
 
 ## Assembly
-1. All parts can be handsoldered. I recommend soldering the keyswitches last.
+1. All parts can be handsoldered. I recommend soldering the key-switches last.
 2. 3D printed parts to contain M3 heatset inserts.
 3. Cut two lengths of food grade silicone tubing, 70mm (pressure tube) and 240mm (bleed tube) in length.
 4. All plumbing is a push fit. Connect the pressure tube between the neck and pressure sensor. Bleed tube carries condensation from the neck to the bottom of the instrument. Holes in the right-hand-pinky-keys can hold the bleed tube in place.
-5. Wrap cork around the neck to ensure an airtight fit with the mouthpiece.
+5. All keycaps are a push fit.
+6. Wrap cork around the neck to ensure an airtight fit with the mouthpiece.
+
+3D printed parts:
+
+|Quantity|Description|
+|-|-|
+|1|key B|
+|1|key B-flat|
+|1|key C-sharp|
+|1|key G-sharp|
+|3|key left palm|
+|1|key low B flat|
+|1|key Octave|
+|3|key right palm|
+|2|key right pinky|
+|7|key round|
+|1|mount left|
+|1|mount left palm|
+|1|mount left pinky|
+|2|mount right palm|
+|2|mount right pinky|
 
 
 ## BOM
-|Quantity|Cost/GBP|Description|MPN|Suggested source|
+|Quantity|Total cost/GBP|Description|MPN|Suggested source|
 |-|-|-|-|-|
 |-|10|3D printed parts|-|-|
 |1|16.88|PCB|-|https://jlcpcb.com/|
@@ -53,11 +74,16 @@ PCB back
 |21|23.49 (30pcs)|Keyboard switches|Cherry MX Black|https://www.ebay.co.uk/itm/203537430495?_skw=mx+black+switch|
 |1|3.80|0.91" OLED display|SSD1306|https://www.aliexpress.com/item/1005006365845676.html|
 |1|1.16|rotary encoder|EC11|https://www.aliexpress.com/item/1005005983134515.html|
+|1|0.80|Barrel jack|DC-005|https://www.aliexpress.com/item/4001206395694.html|
+|21|2.27|Diode|1N4148|https://www.aliexpress.com/item/1005010526571917.html|
+|4|3.00|Capacitors|470pF, 100nF, 470uF|https://www.digikey.co.uk/|
 |29|5.75 (50 pcs)|Screw M3|M3 * 12 Phillip's head|https://www.ebay.co.uk/itm/221326204336|
 |29|8.88 (100 pcs)|Heat-set insert M3|M3 * 4 * 4.5|https://www.ebay.co.uk/itm/376068195160|
 |1|3.20|Food grade silicone hose|ID 3mm OD 5mm length 1mm|https://www.ebay.co.uk/itm/227352704780?var=526554578797|
-|1|5.44|cork sheet|-|https://www.ebay.co.uk/itm/277911247699|
+|1|5.44|cork sheet|~2mm thickness|https://www.ebay.co.uk/itm/277911247699|
 |TOTAL|-|-|-|-|
+
+
 
 
 ## Code
@@ -286,3 +312,11 @@ Massive thank you to Rehan for sacrificing his sleep to write the firmware.
 Also to Sua for designing a BANGING zine.
 
 ## More images
+
+![render](images/render1.png)
+
+![front view](images/front_normal.png)
+
+![rear view](images/back_normal.png)
+
+![bleed tube mounting](images/bleed_detail.png)
