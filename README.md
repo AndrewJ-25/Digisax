@@ -307,11 +307,7 @@ void loop()
 }
 ```
 
-## Acknowledgements <3
 
-Massive thank you to Rehan for sacrificing his sleep to write the firmware.
-
-Also to Sua for designing a BANGING zine.
 
 ## More images
 
@@ -322,3 +318,10 @@ Also to Sua for designing a BANGING zine.
 ![rear view](images/back_normal.png)
 
 ![bleed tube mounting](images/bleed_detail.png)
+
+
+## Acknowledgements <3
+
+Massive thank you to Rehan for sacrificing his sleep to write the firmware.
+
+Also to Sua for designing a BANGING zine.
