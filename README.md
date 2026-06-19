@@ -1,5 +1,6 @@
 # STARLITE
 
+![zine page](images/STARLITE_zine_A5.png)
 
 
 ## Description
@@ -16,6 +17,8 @@ Features:
 - headphone output
 
 The neck can be blown into directly, but an alto saxophone mouthpiece is recommended. (Not included in this project.)
+
+OnShape link: https://cad.onshape.com/documents/a64dba8dfd86a5efa1851173/w/8b62b2d00aa632cf961d9b4c/e/8ecfcb79b78c17c244b3f0aa
 
 ## Schematic and PCB
 
