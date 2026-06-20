@@ -36,7 +36,7 @@ PCB front
 ![pcb back](images/pcb_back.png)
 PCB back
 
-An unrouted, fragmented pcb can be found in the pcb directory. A routed, panelised pcb can be found in startlite_production_pcb. Gerber files were gerated from the latter.
+An unrouted, fragmented pcb can be found in the pcb directory. A routed, panelised pcb can be found in startlite_production_pcb. Gerber files were generated from the latter.
 
 ## Assembly
 1. All parts can be handsoldered. I recommend soldering the key-switches last.
