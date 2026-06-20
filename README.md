@@ -17,7 +17,7 @@ This project is intended to be a cost effective, customisable alternative to com
 - audio synthesised locally
 - 3x7 key matrix featuring MX Black switches
 - power via 5V barrel jack
-- headphone output
+- DAC with headphone output
 
 The neck can be blown into directly, but an alto saxophone mouthpiece is recommended. (Not included in this project.)
 
