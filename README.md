@@ -25,7 +25,7 @@ OnShape link: https://cad.onshape.com/documents/a64dba8dfd86a5efa1851173/w/8b62b
 
 ## Schematic and PCB
 
-![Schematic view](images/schematic.png)
+![Schematic view](images/schematic.jpg)
 A pdf version can be found in the pcb/ directory.
 
 
