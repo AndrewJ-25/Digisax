@@ -28,6 +28,7 @@ OnShape link: https://cad.onshape.com/documents/a64dba8dfd86a5efa1851173/w/8b62b
 ![Schematic view](images/schematic.jpg)
 A pdf version can be found in the pcb/ directory.
 
+![traces](images/traces.png)
 
 ![pcb front](images/pcb_front.png)
 PCB front
@@ -321,8 +322,6 @@ void loop()
 ![rear view](images/back_normal.png)
 
 ![bleed tube mounting](images/bleed_detail.png)
-
-![traces](images/traces.png)
 
 
 ## Acknowledgements <3
