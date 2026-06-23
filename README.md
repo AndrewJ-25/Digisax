@@ -26,7 +26,7 @@ OnShape link: https://cad.onshape.com/documents/a64dba8dfd86a5efa1851173/w/8b62b
 ## Schematic and PCB
 
 ![Schematic view](images/schematic.jpg)
-A pdf version can be found in the pcb/ directory.
+A pdf version can be found under pcb/unconnected_pcb.
 
 ![traces](images/traces.png)
 
@@ -37,7 +37,7 @@ PCB front
 ![pcb back](images/pcb_back.png)
 PCB back
 
-An unrouted, fragmented pcb can be found in the pcb directory. A routed, panelised pcb can be found in startlite_production_pcb. Gerber files were generated from the latter.
+NOTE: Kicad project contatining an unconnected, partially routed pcb can be found under pcb/unconnected_pcb. A fully routed, panelised pcb can be found under pcb/panelised_pcb. Gerber files were generated from the latter.
 
 ## Assembly
 1. All parts can be handsoldered. I recommend soldering the key-switches last.
