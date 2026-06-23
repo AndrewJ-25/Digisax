@@ -322,6 +322,8 @@ void loop()
 
 ![bleed tube mounting](images/bleed_detail.png)
 
+![traces](images/traces.png)
+
 
 ## Acknowledgements <3
 
